@@ -1,29 +1,26 @@
 import java.io.BufferedReader;
-import java.io.DataOutputStream;
-import java.io.FileInputStream;
-import java.io.InputStreamReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Scanner;
+import javax.sql.rowset.spi.SyncResolver;
 
-class Main {
-    public static void main(String[]args){
-        Musica m= new Musica();
-        while (!(enderecoArq.equals("FIM"))){
-            try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(enderecoArq), "UTF-8"))){
-                String entrada= br.readLine();
-                
+public class Main {
+    public static void main(String[] args) throws IOException {
+        Scanner sc= new Scanner(System.in);
+        CRUD fileAF = new CRUD("BancoDados");
+        String csv = "musicas.csv";
+
+        try (BufferedReader br = new BufferedReader(new FileReader(csv))) {
+            String entrada;
+            while ((entrada = br.readLine()) != null) {
+                Musica m = new Musica(entrada);
+                fileAF.create(m);
             }
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-
-
-
-        FileOutputStrem arq;    
-        DataOutputStream dos;
-        
-        try{
-            arq=new FileOutputStrem("musica.db");
-            dos= new DataOutputStream(arq);
-            dos.writeInt()
-        }
-
+        String deucerto = sc.nextLine();
+        System.out.println("Deu Certo?");
     }
+
 }

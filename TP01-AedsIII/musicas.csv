@@ -14,7 +14,7 @@
 14,Sgt. Pepper's Lonely Hearts Club Band,The Beatles,1967-06-01,album,887,"Psychedelic Pop, Pop Rock"
 15,Nevermind,Nirvana,1991-09-24,album,947,"Grunge, Alternative Rock"
 16,Revolver,The Beatles,1966-08-05,album,1169,"Pop Rock, Psychedelic Pop"
-17,"good kid, m.A.A.d city",Kendrick Lamar,2012-10-22,album,317,"West Coast Hip Hop, Conscious Hip Hop"
+17,good kid m.A.A.d city,Kendrick Lamar,2012-10-22,album,317,"West Coast Hip Hop, Conscious Hip Hop"
 18,The Rise and Fall of Ziggy Stardust and the Spiders From Mars,David Bowie,1972-06-16,album,729,"Glam Rock, Pop Rock"
 19,Unknown Pleasures,Joy Division,1979-06-15,album,587,Post-Punk
 20,Yeezus,Kanye West,2013-06-18,album,389,"Experimental Hip Hop, Industrial Hip Hop"
@@ -32,7 +32,7 @@
 32,The Queen Is Dead,The Smiths,1986-06-16,album,542,"Jangle Pop, Indie Pop"
 33,Lift Yr. Skinny Fists Like Antennas to Heaven!,Godspeed You Black Emperor!,2000-10-09,album,625,Post-Rock
 34,Led Zeppelin [IV],Led Zeppelin,1971-11-08,album,868,Hard Rock
-35,Igor,"Tyler, the Creator",2019-05-17,album,327,"Neo-Soul, Psychedelic Soul"
+35,Igor,Tyler the Creator,2019-05-17,album,327,"Neo-Soul, Psychedelic Soul"
 36,Doolittle,Pixies,1989-04-17,album,557,"Alternative Rock, Indie Rock"
 37,Hail to the Thief,Radiohead,2003-06-09,album,493,"Alternative Rock, Art Rock"
 38,The Life of Pablo,Kanye West,2016-02-14,album,286,"Pop Rap, Hip Hop"
@@ -45,7 +45,7 @@
 45,Illmatic,Nas,1994-04-19,album,624,"East Coast Hip Hop, Boom Bap, Hardcore Hip Hop"
 46,Blonde,Frank Ocean,2016-08-20,album,312,"Alternative R&B, Art Pop, Neo-Soul"
 47,Damn.,Kendrick Lamar,2017-04-14,album,238,"West Coast Hip Hop, Conscious Hip Hop"
-48,Flower Boy,"Tyler, the Creator",2017-07-21,album,215,West Coast Hip Hop
+48,Flower Boy,Tyler the Creator,2017-07-21,album,215,West Coast Hip Hop
 49,The Doors,The Doors,1967-01-04,album,569,Psychedelic Rock
 50,Master of Puppets,Metallica,1986-03-03,album,735,Thrash Metal
 51,KIDS SEE GHOSTS,Kids See Ghosts,2018-06-08,album,226,"Pop Rap, Experimental Hip Hop, Neo-Psychedelia"
@@ -139,7 +139,7 @@
 139,Plastic Beach,Gorillaz,2010-03-09,album,198,"Electropop, Art Pop"
 140,Pornography,The Cure,1982-05-03,album,291,"Gothic Rock, Post-Punk"
 141,To Be Kind,Swans,2014-05-13,album,271,"Experimental Rock, Post-Rock"
-142,"Whatever People Say I Am, That's What I'm Not",Arctic Monkeys,2006-01-23,album,394,"Indie Rock, Garage Rock Revival"
+142,Whatever People Say I Am That's What I'm Not,Arctic Monkeys,2006-01-23,album,394,"Indie Rock, Garage Rock Revival"
 143,The Black Saint and the Sinner Lady,Mingus,1963-07-01,album,369,"Avant-Garde Jazz, Third Stream"
 144,Toxicity,System of a Down,2001-09-04,album,409,Alternative Metal
 145,Random Access Memories,Daft Punk,2013-05-20,album,284,"Disco, Electronic"
@@ -158,7 +158,7 @@
 158,Untitled Unmastered.,Kendrick Lamar,2016-03-04,album,97,"Jazz Rap, Conscious Hip Hop, West Coast Hip Hop"
 159,Veteran,JPEGMAFIA,2018-01-19,album,125,"Experimental Hip Hop, Glitch Hop, Industrial Hip Hop"
 160,The Suburbs,Arcade Fire,2010-08-03,album,360,Indie Rock
-161,Call Me If You Get Lost,"Tyler, the Creator",2021-06-25,album,211,West Coast Hip Hop
+161,Call Me If You Get Lost,Tyler the Creator,2021-06-25,album,211,West Coast Hip Hop
 162,Donuts,J Dilla,2006-02-07,album,276,Instrumental Hip Hop
 163,Strawberry Jam,Animal Collective,2007-09-10,album,304,"Neo-Psychedelia, Art Pop"
 164,Ænima,Tool,1996-10-01,album,441,Alternative Metal
@@ -180,7 +180,7 @@
 180,Twin Fantasy,Car Seat Headrest,2018-02-16,album,252,Indie Rock
 181,Thriller,Michael Jackson,1982-11-30,album,319,"Contemporary R&B, Pop, Dance-Pop"
 182,The Soft Bulletin,The Flaming Lips,1999-06-22,album,369,"Neo-Psychedelia, Psychedelic Pop"
-183,For the First Time,"Black Country, New Road",2021-02-05,album,271,"Post-Rock, Experimental Rock, Post-Punk"
+183,For the First Time,Black Country New Road,2021-02-05,album,271,"Post-Rock, Experimental Rock, Post-Punk"
 184,Laughing Stock,Talk Talk,1991-11-19,album,306,Post-Rock
 185,Sound of Silver,LCD Soundsystem,2007-03-12,album,226,"Dance-Punk, Indietronica"
 186,Teen Dream,Beach House,2010-01-26,album,259,"Dream Pop, Indie Pop"
@@ -209,7 +209,7 @@
 209,All My Heroes Are Cornballs,JPEGMAFIA,2019-09-13,album,137,"Experimental Hip Hop, Glitch Hop"
 210,Soundtracks for the Blind,Swans,1996-10-22,album,226,"Experimental Rock, Post-Rock, Experimental"
 211,Saturation,Brockhampton,2017-06-09,album,69,"Pop Rap, West Coast Hip Hop"
-212,"Crooked Rain, Crooked Rain",Pavement,1994-02-14,album,272,Indie Rock
+212,Crooked Rain Crooked Rain,Pavement,1994-02-14,album,272,Indie Rock
 213,Gorillaz,Gorillaz,2001-06-19,album,181,Trip Hop
 214,Fun House,The Stooges,1970-09-01,album,456,"Proto-Punk, Garage Rock, Hard Rock"
 215,Spirit of Eden,Talk Talk,1988-09-16,album,228,"Post-Rock, Art Rock"
@@ -223,7 +223,7 @@
 223,In a Silent Way,Miles Davis,1969-07-30,album,297,"Jazz Fusion, Modal Jazz"
 224,Talking Heads: 77,Talking Heads,1977-09-16,album,230,"New Wave, Art Punk"
 225,The Stone Roses,The Stone Roses,1989-03-13,album,405,Baggy/Madchester
-226,"For Emma, Forever Ago",Bon Iver,2007-07-08,album,237,"Indie Folk, Singer-Songwriter"
+226,For Emma Forever Ago,Bon Iver,2007-07-08,album,237,"Indie Folk, Singer-Songwriter"
 227,Saturation III,Brockhampton,2017-12-15,album,70,"Pop Rap, West Coast Hip Hop"
 228,Sunbather,Deafheaven,2013-06-11,album,190,"Blackgaze, Post-Metal"
 229,Fleet Foxes,Fleet Foxes,2008-06-03,album,366,"Chamber Folk, Indie Folk"
@@ -234,7 +234,7 @@
 234,Elephant,The White Stripes,2003-04-01,album,348,"Garage Rock Revival, Alternative Rock"
 235,Geogaddi,Boards of Canada,2002-02-18,album,199,IDM
 236,Ege Bamyası,Can,1972-10-01,album,241,Krautrock
-237,"Power, Corruption & Lies",New Order,1983-05-02,album,196,"Synthpop, New Wave, Post-Punk"
+237,Power Corruption & Lies,New Order,1983-05-02,album,196,"Synthpop, New Wave, Post-Punk"
 238,Rodeo,Travis Scott,2015-09-04,album,102,"Trap, Southern Hip Hop"
 239,The Moon & Antarctica,Modest Mouse,2000-06-13,album,265,Indie Rock
 240,Fragile,Yes,1971-11-26,album,340,Progressive Rock
@@ -282,7 +282,7 @@
 282,Feels,Animal Collective,2005-10-18,album,239,Neo-Psychedelia
 283,Californication,Red Hot Chili Peppers,1999-06-08,album,286,Alternative Rock
 284,Let It Bleed,The Rolling Stones,1969-11-29,album,378,Blues Rock
-285,Wolf,"Tyler, the Creator",2013-04-02,album,97,"West Coast Hip Hop, Hardcore Hip Hop"
+285,Wolf,Tyler the Creator,2013-04-02,album,97,"West Coast Hip Hop, Hardcore Hip Hop"
 286,After Hours,The Weeknd,2020-03-20,album,171,"Alternative R&B, Synthpop"
 287,Back in Black,AC/DC,1980-08-18,album,571,Hard Rock
 288,Powerslave,Iron Maiden,1984-09-03,album,321,Heavy Metal
@@ -301,9 +301,9 @@
 301,Psychocandy,The Jesus and Mary Chain,1985-11-18,album,283,"Noise Pop, Post-Punk"
 302,Homework,Daft Punk,1997-01-20,album,135,French House
 303,Raw Power,Iggy and The Stooges,1973-02-01,album,384,"Proto-Punk, Garage Rock, Hard Rock"
-304,"I Don't Like Shit, I Don't Go Outside",Earl Sweatshirt,2015-03-23,album,76,"Abstract Hip Hop, West Coast Hip Hop"
+304,I Don't Like Shit I Don't Go Outside,Earl Sweatshirt,2015-03-23,album,76,"Abstract Hip Hop, West Coast Hip Hop"
 305,Ready to Die,The Notorious B.I.G.,1994-09-13,album,240,"East Coast Hip Hop, Gangsta Rap, Boom Bap"
-306,"When We All Fall Asleep, Where Do We Go?",Billie Eilish,2019-03-29,album,201,"Alt-Pop, Electropop, Alternative R&B"
+306,When We All Fall Asleep Where Do We Go?,Billie Eilish,2019-03-29,album,201,"Alt-Pop, Electropop, Alternative R&B"
 307,Bryter Layter,Nick Drake,1970-11-01,album,264,"Singer-Songwriter, Chamber Folk, Contemporary Folk"
 308,Moon Safari,AIR,1998-01-27,album,300,"Downtempo, Ambient Pop"
 309,Blood Sugar Sex Magik,Red Hot Chili Peppers,1991-09-24,album,343,"Funk Rock, Alternative Rock"
@@ -316,7 +316,7 @@
 316,Ambient 1: Music for Airports,Brian Eno,1978-03-01,album,233,Ambient
 317,Moving Pictures,Rush,1981-02-09,album,319,"Progressive Rock, Hard Rock"
 318,Sung Tongs,Animal Collective,2004-05-03,album,203,"Freak Folk, Neo-Psychedelia, Avant-Folk"
-319,"10,000 Days",Tool,2006-05-02,album,365,"Alternative Metal, Progressive Rock, Progressive Metal"
+319,10.000 Days,Tool,2006-05-02,album,365,"Alternative Metal, Progressive Rock, Progressive Metal"
 320,The New Abnormal,The Strokes,2020-04-10,album,188,Indie Rock
 321,Art Angels,Grimes,2015-11-06,album,134,"Electropop, Synthpop"
 322,Origin of Symmetry,Muse,2001-06-18,album,282,"Alternative Rock, Art Rock"
@@ -333,7 +333,7 @@
 333,Paul's Boutique,Beastie Boys,1989-07-25,album,249,East Coast Hip Hop
 334,L.A. Woman,The Doors,1971-04-29,album,302,"Blues Rock, Psychedelic Rock"
 335,Filth,Swans,1983-05-27,album,191,"Noise Rock, No Wave, Industrial Rock"
-336,Ants From Up There,"Black Country, New Road",2022-02-04,album,272,"Art Rock, Post-Rock, Chamber Pop"
+336,Ants From Up There,Black Country New Road,2022-02-04,album,272,"Art Rock, Post-Rock, Chamber Pop"
 337,Beatles for Sale,The Beatles,1964-12-04,album,357,"Merseybeat, Pop Rock"
 338,Bandana,Freddie Gibbs & Madlib,2019-06-28,album,91,Gangsta Rap
 339,Murmur,R.E.M.,1983-04-12,album,298,"Jangle Pop, Alternative Rock"
@@ -341,7 +341,7 @@
 341,More Songs About Buildings and Food,Talking Heads,1978-07-07,album,193,"New Wave, Post-Punk, Art Punk"
 342,Magdalene,FKA twigs,2019-11-08,album,113,"Art Pop, Glitch Pop"
 343,Punisher,Phoebe Bridgers,2020-06-19,album,156,"Singer-Songwriter, Indie Folk"
-344,"Strangeways, Here We Come",The Smiths,1987-09-22,album,213,"Jangle Pop, Indie Pop"
+344,Strangeways Here We Come,The Smiths,1987-09-22,album,213,"Jangle Pop, Indie Pop"
 345,Symbolic,Death,1995-03-21,album,228,Technical Death Metal
 346,Hybrid Theory,Linkin Park,2000-10-24,album,432,"Nu Metal, Rap Rock"
 347,Speaking in Tongues,Talking Heads,1983-06-01,album,143,"New Wave, Synth Funk"
@@ -366,7 +366,7 @@
 366,Time 'n' Place,Kero Kero Bonito,2018-10-01,album,89,"Twee Pop, Indie Pop"
 367,Person Pitch,Panda Bear,2007-03-20,album,277,"Psychedelic Pop, Neo-Psychedelia"
 368,Horses,Patti Smith,1975-12-13,album,250,"Proto-Punk, Singer-Songwriter, Art Rock"
-369,Cherry Bomb,"Tyler, the Creator",2015-04-13,album,81,"Experimental Hip Hop, West Coast Hip Hop, Hardcore Hip Hop"
+369,Cherry Bomb,Tyler the Creator,2015-04-13,album,81,"Experimental Hip Hop, West Coast Hip Hop, Hardcore Hip Hop"
 370,The Black Parade,My Chemical Romance,2006-10-24,album,215,"Pop Punk, Rock Opera, Alternative Rock"
 371,Absolution,Muse,2003-09-29,album,281,Alternative Rock
 372,Ramones,Ramones,1976-04-23,album,414,Punk Rock
@@ -386,7 +386,7 @@
 386,The Clash,The Clash,1977-04-08,album,328,Punk Rock
 387,drukqs,Aphex Twin,2001-10-22,album,169,"IDM, Drilland Bass"
 388,Salad Days,Mac DeMarco,2014-04-01,album,62,"Jangle Pop, Psychedelic Pop, Bedroom Pop"
-389,Goblin,"Tyler, the Creator",2011-05-10,album,179,"Hardcore Hip Hop, West Coast Hip Hop"
+389,Goblin,Tyler The Creator,2011-05-10,album,179,"Hardcore Hip Hop, West Coast Hip Hop"
 390,The Stooges,The Stooges,1969-08-05,album,250,"Garage Rock, Proto-Punk"
 391,St. Anger,Metallica,2003-06-05,album,913,Alternative Metal
 392,Doris,Earl Sweatshirt,2013-08-20,album,73,West Coast Hip Hop
@@ -417,7 +417,7 @@
 417,Franz Ferdinand,Franz Ferdinand,2004-02-09,album,332,"Post-Punk Revival, Indie Rock"
 418,Nonagon Infinity,King Gizzard and The Lizard Wizard,2016-04-29,album,92,"Psychedelic Rock, Garage Rock"
 419,Iron Maiden,Iron Maiden,1980-04-14,album,332,"NWOBHM, Heavy Metal"
-420,"""Awaken, My Love!""",Childish Gambino,2016-12-02,album,83,"Psychedelic Soul, Funk, Neo-Soul"
+420,"""Awaken My Love!""",Childish Gambino,2016-12-02,album,83,"Psychedelic Soul, Funk, Neo-Soul"
 421,iridescence,Brockhampton,2018-09-21,album,105,"Experimental Hip Hop, Hardcore Hip Hop"
 422,Beggars Banquet,The Rolling Stones,1968-12-06,album,306,"Roots Rock, Rock"
 423,White Blood Cells,The White Stripes,2001-07-03,album,214,"Garage Rock Revival, Alternative Rock"
@@ -438,7 +438,7 @@
 438,Hospice,The Antlers,2009-03-03,album,213,Indie Rock
 439,The Man Who Sold the World,David Bowie,1970-11-04,album,264,"Glam Rock, Hard Rock"
 440,XO,Elliott Smith,1998-08-25,album,157,"Singer-Songwriter, Indie Pop"
-441,"Bon Iver, Bon Iver",Bon Iver,2011-06-21,album,172,"Indie Folk, Art Pop"
+441,Bon Iver Bon Iver,Bon Iver,2011-06-21,album,172,"Indie Folk, Art Pop"
 442,Head Hunters,Herbie Hancock,1973-10-13,album,177,"Jazz-Funk, Jazz Fusion"
 443,It Takes a Nation of Millions to Hold Us Back,Public Enemy,1988-04-14,album,265,"Political Hip Hop, East Coast Hip Hop, Hardcore Hip Hop, Conscious Hip Hop"
 444,Innervisions,Stevie Wonder,1973-08-03,album,247,Soul
@@ -505,7 +505,7 @@
 505,GREY Area,Little Simz,2019-03-01,album,99,"UKHip Hop, Conscious Hip Hop"
 506,The Mantle,Agalloch,2002-08-13,album,206,"Post-Metal, Folk Metal"
 507,Benji,Sun Kil Moon,2014-02-11,album,163,"Contemporary Folk, Singer-Songwriter"
-508,Promises,"Floating Points, Pharoah Sanders & The London Symphony OrchestraFloating PointsPharoah SandersLondon Symphony Orchestra",2021-03-26,album,107,"Post-Minimalism, Third Stream"
+508,Promises,Floating Points Pharoah Sanders & The London Symphony OrchestraFloating PointsPharoah SandersLondon Symphony Orchestra,2021-03-26,album,107,"Post-Minimalism, Third Stream"
 509,Angel Dust,Faith No More,1992-06-08,album,263,"Alternative Metal, Alternative Rock"
 510,High Violet,The National,2010-05-11,album,285,Indie Rock
 511,Imperial,Denzel Curry,2016-03-09,album,51,"Southern Hip Hop, Trap"
@@ -646,7 +646,7 @@
 646,Be the Cowboy,Mitski,2018-08-17,album,79,"Art Pop, Indie Rock"
 647,Vision Creation Newsun,Boredoms,1999-12-10,album,156,"Experimental Rock, Neo-Psychedelia, Psychedelic Rock"
 648,Microcastle / Weird Era Continued,Deerhunter,2008-10-27,album,189,"Indie Rock, Neo-Psychedelia"
-649,"Ravedeath, 1972",Tim Hecker,2011-02-14,album,89,"Ambient, Drone"
+649,Ravedeath 1972,Tim Hecker,2011-02-14,album,89,"Ambient, Drone"
 650,Transatlanticism,Death Cab for Cutie,2003-10-07,album,175,"Indie Rock, Indie Pop"
 651,Dawn FM,The Weeknd,2022-01-07,album,170,"Synthpop, Dance-Pop"
 652,Screamadelica,Primal Scream,1991-10-08,album,168,"Alternative Dance, Neo-Psychedelia"
@@ -659,7 +659,7 @@
 659,Let's Dance,David Bowie,1983-04-14,album,195,"Pop Rock, New Wave, Dance-Pop"
 660,Karma,Pharoah Sanders,1969-05-01,album,150,Spiritual Jazz
 661,California,Mr. Bungle,1999-07-13,album,198,"Experimental Rock, Art Rock"
-662,"Hissing Fauna, Are You the Destroyer?",of Montreal,2007-01-23,album,190,"Psychedelic Pop, Indie Pop, Neo-Psychedelia, Indietronica"
+662,Hissing Fauna Are You the Destroyer?,of Montreal,2007-01-23,album,190,"Psychedelic Pop, Indie Pop, Neo-Psychedelia, Indietronica"
 663,Hypnotize,System of a Down,2005-11-22,album,153,Alternative Metal
 664,Long.Live.A$AP,A$AP Rocky,2013-01-15,album,100,East Coast Hip Hop
 665,Reasonable Doubt,Jay-Z,1996-06-25,album,165,"East Coast Hip Hop, Boom Bap, Gangsta Rap"
@@ -670,7 +670,7 @@
 670,Islands,King Crimson,1971-12-03,album,197,Progressive Rock
 671,Tri repetae,Autechre,1995-11-06,album,125,IDM
 672,Keep It Like a Secret,Built to Spill,1999-02-02,album,121,Indie Rock
-673,"Stories From the City, Stories From the Sea",PJ Harvey,2000-10-24,album,156,"Alternative Rock, Singer-Songwriter"
+673,Stories From the City Stories From the Sea,PJ Harvey,2000-10-24,album,156,"Alternative Rock, Singer-Songwriter"
 674,Humbug,Arctic Monkeys,2009-08-24,album,136,Indie Rock
 675,Vs.,Pearl Jam,1993-10-19,album,238,"Grunge, Alternative Rock"
 676,De mysteriis dom Sathanas,Mayhem,1994-05-24,album,175,Black Metal
@@ -718,18 +718,18 @@
 718,Imagine,John Lennon,1971-09-09,album,216,"Pop Rock, Singer-Songwriter"
 719,Songs From the Big Chair,Tears for Fears,1985-02-01,album,161,"Synthpop, New Wave, Pop Rock"
 720,Mirage,Camel,1974-03-01,album,178,"Symphonic Prog, Progressive Rock"
-721,"22, a Million",Bon Iver,2016-09-30,album,119,"Art Pop, Indietronica"
+721,22 a Million,Bon Iver,2016-09-30,album,119,"Art Pop, Indietronica"
 722,Seven Swans,Sufjan Stevens,2004-03-16,album,113,"Singer-Songwriter, Indie Folk, Chamber Folk"
 723,新しい日の誕生 (Atarashī hi no tanjō),2814,2015-01-21,album,98,"Ambient, Dreampunk"
 724,War,U2,1983-02-28,album,196,"Post-Punk, Alternative Rock"
-725,"Roadrunner: New Light, New Machine",Brockhampton,2021-04-09,album,114,"West Coast Hip Hop, Pop Rap"
+725,Roadrunner: New Light New Machine,Brockhampton,2021-04-09,album,114,"West Coast Hip Hop, Pop Rap"
 726,Things Fall Apart,The Roots,1999-02-23,album,87,"East Coast Hip Hop, Jazz Rap"
 727,69 Love Songs,The Magnetic Fields,1999-09-07,album,233,Indie Pop
 728,Metropolis Pt. 2: Scenes From a Memory,Dream Theater,1999-10-26,album,272,Progressive Metal
 729,Endless,Frank Ocean,2018-04-09,album,40,"Alternative R&B, Ambient Pop, Art Pop"
 730,This Year's Model,Elvis Costello,1978-03-17,album,193,"New Wave, Pop Rock"
 731,The Ooz,King Krule,2017-10-13,album,84,Art Rock
-732,"I'm Wide Awake, It's Morning",Bright Eyes,2005-01-25,album,180,"Indie Folk, Contemporary Folk"
+732,I'm Wide Awake It's Morning,Bright Eyes,2005-01-25,album,180,"Indie Folk, Contemporary Folk"
 733,Stadium Arcadium,Red Hot Chili Peppers,2006-05-09,album,312,Alternative Rock
 734,A Blaze in the Northern Sky,Darkthrone,1992-02-26,album,131,Black Metal
 735,Injury Reserve,Injury Reserve,2019-05-17,album,52,Experimental Hip Hop
@@ -794,7 +794,7 @@
 794,Superfly,Curtis Mayfield,1972-07-01,album,153,"Film Soundtrack, Chicago Soul, Funk"
 795,Low-Life,New Order,1985-05-13,album,86,"Synthpop, New Wave, Alternative Dance"
 796,Out to Lunch,Eric Dolphy,1964-08-01,album,149,Avant-Garde Jazz
-797,"I Love You, Honeybear",Father John Misty,2015-02-10,album,88,"Indie Folk, Singer-Songwriter"
+797,I Love You Honeybear,Father John Misty,2015-02-10,album,88,"Indie Folk, Singer-Songwriter"
 798,Figure 8,Elliott Smith,2000-04-18,album,146,"Singer-Songwriter, Indie Pop"
 799,Safe in the Hands of Love,Yves Tumor,2018-09-05,album,51,"Neo-Psychedelia, Post-Industrial, Art Pop"
 800,Ultraviolence,Lana Del Rey,2014-06-17,album,119,"Dream Pop, Art Pop, Neo-Psychedelia"
@@ -826,12 +826,12 @@
 826,Washing Machine,Sonic Youth,1995-09-26,album,101,"Noise Rock, Alternative Rock, Experimental Rock"
 827,Old,Danny Brown,2013-10-08,album,53,Hardcore Hip Hop
 828,Fear of a Blank Planet,Porcupine Tree,2007-04-16,album,281,Progressive Rock
-829,"Thank U, Next",Ariana Grande,2019-02-08,album,100,"Contemporary R&B, Pop"
+829,Thank U Next,Ariana Grande,2019-02-08,album,100,"Contemporary R&B, Pop"
 830,Rossz csillag alatt született,Venetian Snares,2005-03-14,album,120,"Breakcore, Drilland Bass, Modern Classical"
 831,An Awesome Wave,alt-J,2012-05-25,album,101,"Art Pop, Indie Pop"
 832,Isolation,Kali Uchis,2018-04-06,album,64,"Neo-Soul, Contemporary R&B"
-833,"Song Machine, Season One",Gorillaz,2020-10-23,album,90,"Synthpop, Art Pop"
-834,"あらためまして、はじめまして、ミドリです。 (Aratamemashite, hajimemashite, Midori desu.)",ミドリ [Midori],2008-05-14,album,62,Art Punk
+833,Song Machine Season One,Gorillaz,2020-10-23,album,90,"Synthpop, Art Pop"
+834,あらためましてはじめましミドリです。 (Aratamemashite  hajimemashite  Midori desu.),ミドリ [Midori],2008-05-14,album,62,Art Punk
 835,Individual Thought Patterns,Death,1993-06-30,album,138,Technical Death Metal
 836,Summertime '06,Vince Staples,2015-06-30,album,58,"West Coast Hip Hop, Hardcore Hip Hop"
 837,The Modern Lovers,The Modern Lovers,1976-08-01,album,188,"Proto-Punk, Garage Rock"
@@ -921,19 +921,19 @@
 921,The Cold Vein,Cannibal Ox,2001-05-15,album,155,"Abstract Hip Hop, East Coast Hip Hop, Experimental Hip Hop, Conscious Hip Hop"
 922,Revival,Eminem,2017-12-15,album,87,Pop Rap
 923,For Your Pleasure,Roxy Music,1973-03-23,album,176,"Art Rock, Glam Rock"
-924,Bastard,"Tyler, the Creator",2009-12-25,album,70,"Hardcore Hip Hop, West Coast Hip Hop"
+924,Bastard,Tyler the Creator,2009-12-25,album,70,"Hardcore Hip Hop, West Coast Hip Hop"
 925,Script of the Bridge,The Chameleons,1983-08-01,album,155,Post-Punk
 926,1989,Taylor Swift,2014-10-27,album,105,"Synthpop, Electropop"
 927,Nashville Skyline,Bob Dylan,1969-04-09,album,222,"Country Rock, Singer-Songwriter, Folk Rock, Country"
 928,The Cars,The Cars,1978-06-06,album,164,"New Wave, Power Pop, Pop Rock"
-929,"A Tiny House, in Secret Speeches, Polar Equals",Sweet Trip,2021-05-28,album,66,"Dream Pop, Indietronica"
+929,A Tiny House in Secret Speeches Polar Equals,Sweet Trip,2021-05-28,album,66,"Dream Pop, Indietronica"
 930,Garden of Delete,Oneohtrix Point Never,2015-11-13,album,83,"Post-Industrial, Progressive Electronic"
 931,Another Side of Bob Dylan,Bob Dylan,1964-08-08,album,197,"Contemporary Folk, Singer-Songwriter"
 932,3 Feet High and Rising,De La Soul,1989-01-23,album,179,"East Coast Hip Hop, Conscious Hip Hop"
 933,Starboy,The Weeknd,2016-11-25,album,39,"Alternative R&B, Electropop"
 934,OK Human,Weezer,2021-01-29,album,145,"Chamber Pop, Pop Rock"
 935,Cop,Swans,1984-01-01,album,79,"Noise Rock, No Wave"
-936,My Aim Is True,Elvis Costello,1977-07-22,album,180,"New Wave, Pub Rock"
+936,My Aim Is True, Elvis Costello,1977-07-22,album,180,"New Wave, Pub Rock"
 937,The Unnatural World,Have a Nice Life,2014-02-04,album,45,"Post-Punk, Shoegaze"
 938,I'm in Your Mind Fuzz,King Gizzard & the Lizard Wizard,2014-10-31,album,38,"Psychedelic Rock, Garage Rock"
 939,Deja entendu,Brand New,2003-06-17,album,139,"Emo, Alternative Rock"
@@ -978,16 +978,16 @@
 978,Kaputt,Destroyer,2011-01-25,album,139,"Sophisti-Pop, Art Pop"
 979,Iowa,Slipknot,2001-08-28,album,186,"Nu Metal, Alternative Metal"
 980,Eversince,Bladee,2016-05-25,album,58,"Cloud Rap, Alternative R&B, Emo Rap"
-981,Combat Rock,The Clash,1982-05-14,album,181,New Wave
+981,Combat Rock,The Clash,1982-05-14,album,181,"New Wave"
 982,Dirty Computer,Janelle Monáe,2018-04-27,album,82,"Contemporary R&B, Art Pop"
 983,Testing,A$AP Rocky,2018-05-25,album,53,"East Coast Hip Hop, Cloud Rap"
 984,Pure Comedy,Father John Misty,2017-04-07,album,105,"Singer-Songwriter, Piano Rock, Chamber Pop"
 985,The Magnolia Electric Co.,Magnolia Electric Co.,2003-03-04,album,94,"Alt-Country, Country Rock"
-986,あくまのうた (Akuma no uta),Boris,2003-06-06,album,66,Stoner Metal
+986,あくまのうた (Akuma no uta),Boris,2003-06-06,album,66,"Stoner Metal"
 987,Deliverance,Opeth,2002-11-04,album,137,Progressive Metal
 988,Sad Wings of Destiny,Judas Priest,1976-03-23,album,198,Heavy Metal
 989,Can't Buy a Thrill,Steely Dan,1972-10-01,album,145,Pop Rock
-990,"Oh, Inverted World",The Shins,2001-06-19,album,200,Indie Pop
+990,Oh Inverted World,The Shins,2001-06-19,album,200,Indie Pop
 991,The Boy With the Arab Strap,Belle & Sebastian,1998-09-08,album,123,"Twee Pop, Chamber Pop, Indie Pop"
 992,Brave New World,Iron Maiden,2000-05-29,album,198,Heavy Metal
 993,Roman Candle,Elliott Smith,1994-07-14,album,98,"Singer-Songwriter, Indie Folk"
@@ -1007,7 +1007,7 @@
 1007,Mos Def & Talib Kweli Are Black Star,Black Star,1998-09-29,album,142,"Conscious Hip Hop, East Coast Hip Hop, Boom Bap"
 1008,Milo Goes to College,Descendents,1982-09-04,album,104,"Hardcore Punk, Skate Punk"
 1009,Ill Communication,Beastie Boys,1994-05-31,album,143,East Coast Hip Hop
-1010,Déjà vu,"Crosby, Stills, Nash & Young",1970-03-11,album,182,Folk Rock
+1010,Déjà vu,Crosby  Stills  Nash & Young,1970-03-11,album,182,Folk Rock
 1011,Queen II,Queen,1974-03-08,album,201,"Hard Rock, Glam Rock"
 1012,ANIMA,Thom Yorke,2019-06-27,album,60,"Glitch Pop, Ambient Pop"
 1013,Get Behind Me Satan,The White Stripes,2005-06-07,album,180,"Alternative Rock, Garage Rock Revival, Blues Rock"
@@ -1034,7 +1034,7 @@
 1034,Goat,The Jesus Lizard,1991-03-15,album,107,"Noise Rock, Post-Hardcore"
 1035,Burial,Burial,2006-05-15,album,72,"Dubstep, Future Garage"
 1036,The Band,The Band,1969-09-22,album,197,"Roots Rock, Folk Rock, Country Rock"
-1037,"Asunder, Sweet and Other Distress'",Godspeed You! Black Emperor,2015-03-31,album,79,"Post-Rock, Drone"
+1037,Asunder Sweet and Other Distress',Godspeed You! Black Emperor,2015-03-31,album,79,"Post-Rock, Drone"
 1038,Rounds,Four Tet,2003-05-05,album,70,"Folktronica, IDM"
 1039,The Unseen,Quasimoto,2000-06-13,album,86,"West Coast Hip Hop, Abstract Hip Hop, Jazz Rap, Experimental Hip Hop"
 1040,Overgrown,James Blake,2013-04-08,album,83,"Art Pop, Alternative R&B"
@@ -1047,7 +1047,7 @@
 1047,Bookends,Simon & Garfunkel,1968-04-03,album,148,"Folk Pop, Folk Rock"
 1048,We Were Dead Before the Ship Even Sank,Modest Mouse,2007-03-20,album,178,"Indie Rock, Post-Punk Revival"
 1049,Arca,Arca,2017-04-07,album,58,"Art Pop, Glitch Pop"
-1050,"You're a Woman, I'm a Machine",Death From Above 1979,2004-10-26,album,111,Dance-Punk
+1050,You're a Woman I'm a Machine,Death From Above 1979,2004-10-26,album,111,Dance-Punk
 1051,Plastic Surgery Disasters,Dead Kennedys,1982-11-01,album,101,"Hardcore Punk, Punk Rock"
 1052,Ascension [Edition I],John Coltrane,1966-02-01,album,119,"Free Jazz, Spiritual Jazz"
 1053,Fashion Week,Death Grips,2015-01-04,album,31,"Glitch Hop, Wonky, Instrumental Hip Hop"
@@ -1067,7 +1067,7 @@
 1067,Brothers,The Black Keys,2010-05-18,album,130,Blues Rock
 1068,Koi no yokan,Deftones,2012-11-13,album,88,Alternative Metal
 1069,Through Silver in Blood,Neurosis,1996-04-02,album,115,"Atmospheric Sludge Metal, Sludge Metal"
-1070,"Hurry Up, We're Dreaming",M83,2011-10-18,album,132,"Dream Pop, Synthpop"
+1070,Hurry Up We're Dreaming,M83,2011-10-18,album,132,"Dream Pop, Synthpop"
 1071,This Nation's Saving Grace,The Fall,1985-09-23,album,129,Post-Punk
 1072,Adore,The Smashing Pumpkins,1998-06-01,album,228,Alternative Rock
 1073,Confusion Is Sex,Sonic-Youth,1983-04-01,album,115,"Noise Rock, No Wave"
@@ -1105,7 +1105,7 @@
 1105,My Life in the Bush of Ghosts,Brian Eno-David ByrneBrian EnoDavid Byrne,1981-02-01,album,130,"Experimental Rock, Art Rock"
 1106,Darklands,The Jesus and Mary Chain,1987-08-31,album,99,Alternative Rock
 1107,Assume Form,James Blake,2019-01-18,album,84,"Alternative R&B, Art Pop"
-1108,"My Arms, Your Hearse",Opeth,1998-05-11,album,124,Progressive Metal
+1108,My Arms Your Hearse,Opeth,1998-05-11,album,124,Progressive Metal
 1109,Days of Future Passed,The Moody Blues With The London Festival Orchestra,1967-12-01,album,197,"Baroque Pop, Art Rock, Progressive Pop, Symphonic Prog"
 1110,All Mirrors,Angel Olsen,2019-10-04,album,64,"Art Pop, Chamber Pop"
 1111,Os Mutantes,Os Mutantes,1968-06-01,album,161,"Tropicália, Psychedelic Rock"
@@ -1137,7 +1137,7 @@
 1137,Boston,Boston,1976-08-25,album,252,"Hard Rock, AOR"
 1138,Этажи (Etazhi),Молчат дома [Molchat doma],2018-09-07,album,48,Coldwave
 1139,Bury Me at Makeout Creek,Mitski,2014-11-11,album,26,"Indie Rock, Singer-Songwriter"
-1140,"Sometimes I Sit and Think, and Sometimes I Just Sit",Courtney Barnett,2015-03-24,album,68,"Indie Rock, Singer-Songwriter, Lo-Fi/Slacker Rock"
+1140,Sometimes I Sit and Think and Sometimes I Just Sit,Courtney Barnett,2015-03-24,album,68,"Indie Rock, Singer-Songwriter, Lo-Fi/Slacker Rock"
 1141,?,XXXTentacion,2018-03-16,album,57,"Emo Rap, Alternative R&B"
 1142,Earl,Earl Sweatshirt,2010-03-31,album,78,"West Coast Hip Hop, Horrorcore, Hardcore Hip Hop"
 1143,Lifestylez ov da Poor & Dangerous,Big L,1995-03-28,album,138,"East Coast Hip Hop, Boom Bap, Hardcore Hip Hop"
@@ -1191,10 +1191,10 @@
 1191,Anthems to the Welkin at Dusk,Emperor,1997-07-08,album,107,Symphonic Black Metal
 1192,Me Against the World,2Pac,1995-03-14,album,183,"West Coast Hip Hop, Conscious Hip Hop, Gangsta Rap"
 1193,A Day at the Races,Queen,1976-12-10,album,151,Hard Rock
-1194,Without Warning,"21 Savage, Offset & Metro Boomin",2017-10-31,album,34,"Trap, Southern Hip Hop"
+1194,Without Warning,21 Savage  Offset & Metro Boomin,2017-10-31,album,34,"Trap, Southern Hip Hop"
 1195,Aviary,Julia Holter,2018-10-26,album,96,"Progressive Pop, Art Pop, Experimental, Ambient Pop"
 1196,Paris 1919,John Cale,1973-02-25,album,138,"Baroque Pop, Singer-Songwriter, Art Pop"
-1197,"Hi, How Are You: The Unfinished Album",Daniel Johnston,1983-01-01,album,71,Singer-Songwriter
+1197,Hi How Are You: The Unfinished Album,Daniel Johnston,1983-01-01,album,71,Singer-Songwriter
 1198,Return to Cookie Mountain,TV on the Radio,2006-07-03,album,159,"Indie Rock, Art Rock"
 1199,Neō Wax Bloom,Iglooghost,2017-09-29,album,54,"UKBass, Wonky"
 1200,Tweez,Slint,1989-07-01,album,93,"Noise Rock, Math Rock, Post-Hardcore"
@@ -1215,7 +1215,7 @@
 1215,After Laughter,Paramore,2017-05-12,album,57,"New Wave, Alternative Dance, Pop Rock"
 1216,A Seat at the Table,Solange,2016-09-30,album,52,Neo-Soul
 1217,4eva Is a Mighty Long Time,Big K.R.I.T.,2017-10-27,album,47,Southern Hip Hop
-1218,"So Far, So Good... So What!",Megadeth,1988-01-19,album,167,Thrash Metal
+1218,So Far So Good... So What!,Megadeth,1988-01-19,album,167,Thrash Metal
 1219,Our Love to Admire,Interpol,2007-07-10,album,164,"Post-Punk Revival, Indie Rock"
 1220,Starz,Yung Lean,2020-05-15,album,55,Cloud Rap
 1221,Divers,Joanna Newsom,2015-10-23,album,76,"Chamber Folk, Singer-Songwriter"
@@ -1247,7 +1247,7 @@
 1247,Little Creatures,Talking Heads,1985-06-10,album,98,"Art Pop, Pop Rock"
 1248,The Great Escape,Blur,1995-09-11,album,160,Britpop
 1249,Plays the Music of Twin Peaks,Xiu Xiu,2016-04-16,album,33,Experimental Rock
-1250,"It Was Hot, We Stayed in the Water",The Microphones,2000-09-26,album,41,"Psychedelic Folk, Indie Folk, Lo-Fi/Slacker Rock"
+1250,It Was Hot We Stayed in the Water,The Microphones,2000-09-26,album,41,"Psychedelic Folk, Indie Folk, Lo-Fi/Slacker Rock"
 1251,Overkill,Motörhead,1979-03-24,album,91,"Heavy Metal, Hard Rock"
 1252,Með suð í eyrum við spilum endalaust,Sigur Rós,2008-06-23,album,160,"Dream Pop, Post-Rock"
 1253,Let There Be Rock,AC/DC,1977-03-21,album,196,Hard Rock
@@ -1367,7 +1367,7 @@
 1367,Painting With,Animal Collective,2016-02-19,album,87,"Psychedelic Pop, Neo-Psychedelia"
 1368,Stained Class,Judas Priest,1978-02-10,album,137,Heavy Metal
 1369,Live Through This,Hole,1994-04-12,album,119,"Grunge, Alternative Rock"
-1370,Monoliths & Dimensions,Sunn O))),2009-05-18,album,98,"Drone Metal, Drone"
+1370,Monoliths & Dimensions,Sunn O,2009-05-18,album,98,"Drone Metal, Drone"
 1371,Man on the Moon III: The Chosen,Kid Cudi,2020-12-11,album,60,Pop Rap
 1372,The Fool,Bladee,2021-05-28,album,46,"Cloud Rap, Trap, Pop Rap"
 1373,The Fame,Lady Gaga,2008-08-19,album,157,"Dance-Pop, Electropop"
@@ -1392,7 +1392,7 @@
 1392,The Satanist,Behemoth,2014-02-07,album,83,"Death Metal, Black Metal"
 1393,One Hot Minute,The Red Hot Chili Peppers,1995-09-12,album,162,"Alternative Rock, Funk Rock"
 1394,The United States of America,The United States of America,1968-03-06,album,146,"Psychedelic Rock, Experimental Rock, Art Rock"
-1395,"Dead Cities, Red Seas & Lost Ghosts",M83,2003-04-15,album,97,"Electronic, Indietronica"
+1395,Dead Cities Red Seas & Lost Ghosts,M83,2003-04-15,album,97,"Electronic, Indietronica"
 1396,Source Tags & Codes,...And You Will Know Us by the Trail of Dead,2002-02-26,album,159,"Indie Rock, Post-Hardcore"
 1397,Mylo Xyloto,Coldplay,2011-10-24,album,143,Pop Rock
 1398,Abattoir Blues / The Lyre of Orpheus,Nick Cave & The Bad Seeds,2004-09-20,album,105,"Alternative Rock, Art Rock"
@@ -1425,7 +1425,7 @@
 1425,Between the Buttons,The Rolling Stones,1967-01-20,album,164,Pop Rock
 1426,Meliora,Ghost,2015-08-21,album,51,"Hard Rock, Heavy Metal"
 1427,Music to Be Murdered By,Eminem,2020-01-17,album,116,"Pop Rap, Trap"
-1428,Tarkus,"Emerson, Lake & Palmer",1971-06-14,album,176,"Progressive Rock, Symphonic Prog"
+1428,Tarkus,Emerson Lake & Palmer,1971-06-14,album,176,"Progressive Rock, Symphonic Prog"
 1429,Guero,Beck,2005-03-29,album,164,"Alternative Rock, Trip Hop"
 1430,Tyron,slowthai,2021-02-12,album,51,"UKHip Hop, Trap"
 1431,I'll Try Living Like This,death's dynamic shroud.wmv,2015-05-15,album,66,"Vaporwave, Plunderphonics"
@@ -1481,7 +1481,7 @@
 1481,The Raven That Refused to Sing (And Other Stories),Steven Wilson,2013-02-25,album,120,Progressive Rock
 1482,Everything Will Be Alright in the End,Weezer,2014-10-07,album,74,"Power Pop, Alternative Rock"
 1483,Face to Face,The Kinks,1966-10-28,album,158,"Pop Rock, Mod"
-1484,"A Quiet Farwell, 2016–2018",Slauson Malone,2019-04-18,album,49,"Sound Collage, Experimental Hip Hop, Glitch Hop"
+1484,A Quiet Farwell 2016–2018,Slauson Malone,2019-04-18,album,49,"Sound Collage, Experimental Hip Hop, Glitch Hop"
 1485,NO DREAM,Jeff Rosenstock,2020-05-20,album,41,"Pop Punk, Power Pop"
 1486,We Must Become the Pitiless Censors of Ourselves,John Maus,2011-06-27,album,68,"Synthpop, Hypnagogic Pop"
 1487,Train of Thought,Dream Theater,2003-11-11,album,175,Progressive Metal
@@ -1508,21 +1508,21 @@
 1508,The Hunter,Mastodon,2011-09-27,album,135,Progressive Metal
 1509,Going Blank Again,Ride,1992-03-09,album,75,"Shoegaze, Alternative Rock"
 1510,Time Skiffs,Animal Collective,2022-02-04,album,76,"Neo-Psychedelia, Psychedelic Pop"
-1511,Black One,Sunn O))),2005-10-03,album,83,"Drone Metal, Drone, Dark Ambient"
+1511,Black One,Sunn O,2005-10-03,album,83,"Drone Metal, Drone, Dark Ambient"
 1512,Oxnard,Anderson .Paak,2018-11-16,album,33,"West Coast Hip Hop, Neo-Soul, Funk"
 1513,Pretzel Logic,Steely Dan,1974-02-20,album,124,Pop Rock
 1514,Life After Death,The Notorious B.I.G.,1997-03-25,album,113,"East Coast Hip Hop, Gangsta Rap, Hardcore Hip Hop"
-1515,"Come Over When You're Sober, Pt. 1",Lil Peep,2017-08-15,album,40,Emo Rap
+1515,Come Over When You're Sober Pt 1,Lil Peep,2017-08-15,album,40,Emo Rap
 1516,Mekanïk Destruktïw Kommandöh,Magma,1973-05-06,album,129,Zeuhl
 1517,Ultra Mono,Idles,2020-09-25,album,94,"Post-Punk, Art Punk"
-1518,"i,i",Bon Iver,2019-08-09,album,60,Art Pop
+1518,i i,Bon Iver,2019-08-09,album,60,Art Pop
 1519,Shadows of the Sun,Ulver,2007-10-01,album,117,"Ambient, Electronic, Ambient Pop"
 1520,A Fever You Can't Sweat Out,Panic! at the Disco,2005-09-27,album,115,"Pop Punk, Pop Rock, Emo-Pop"
 1521,Electro-Shock Blues,Eels,1998-09-21,album,128,"Indie Pop, Singer-Songwriter"
 1522,Saxophone Colossus,Sonny Rollins,1957-04-01,album,81,Hard Bop
 1523,Real Life,Magazine,1978-06-01,album,110,"Post-Punk, Art Punk"
 1524,You Fail Me,Converge,2004-09-20,album,56,"Mathcore, Metalcore"
-1525,"Parsley, Sage, Rosemary and Thyme",Simon and Garfunkel,1966-10-10,album,118,"Folk Pop, Folk Rock"
+1525,Parsley Sage Rosemary and Thyme,Simon and Garfunkel,1966-10-10,album,118,"Folk Pop, Folk Rock"
 1526,Court and Spark,Joni Mitchell,1974-01-17,album,121,"Singer-Songwriter, Folk Pop"
 1527,Jesu,Jesu,2004-12-08,album,83,"Drone Metal, Shoegaze, Post-Metal"
 1528,Process,Sampha,2017-02-03,album,37,Alternative R&B
@@ -1601,7 +1601,7 @@
 1601,Is This Desire?,PJ Harvey,1998-09-28,album,94,"Alternative Rock, Singer-Songwriter, Downtempo"
 1602,Flamboyant,Dorian Electra,2019-07-17,album,37,"Hyperpop, Electropop"
 1603,Fly by Night,Rush,1975-02-15,album,131,"Hard Rock, Progressive Rock"
-1604,Trash Island,"Thaiboy Digital, Bladee & Ecco2K",2019-09-12,album,19,Cloud Rap
+1604,Trash Island,Thaiboy Digital  Bladee & Ecco2K,2019-09-12,album,19,Cloud Rap
 1605,The Heart of Saturday Night,Tom Waits,1974-10-15,album,101,"Singer-Songwriter, Piano Blues"
 1606,World of Echo,Arthur Russell,1986-01-01,album,64,"Ambient Pop, Avant-Folk, Experimental"
 1607,Fables of the Reconstruction,R.E.M.,1985-06-10,album,129,"Jangle Pop, Alternative Rock"
@@ -1622,7 +1622,7 @@
 1622,Some Great Reward,Depeche Mode,1984-09-24,album,97,Synthpop
 1623,Endless Summer,Fennesz,2001-06-26,album,72,Glitch
 1624,Chaos A.D.,Sepultura,1993-09-02,album,123,"Groove Metal, Thrash Metal"
-1625,"Emerson, Lake & Palmer","Emerson, Lake & Palmer",1970-11-20,album,129,"Progressive Rock, Symphonic Prog"
+1625,Emerson Lake & Palmer,Emerson  Lake & Palmer,1970-11-20,album,129,"Progressive Rock, Symphonic Prog"
 1626,Franks Wild Years,Tom Waits,1987-08-17,album,99,"Singer-Songwriter, Dark Cabaret"
 1627,The Life Pursuit,Belle and Sebastian,2006-02-06,album,132,"Indie Pop, Chamber Pop"
 1628,Blank Banshee 0,Blank Banshee,2012-09-01,album,33,Vaportrap
@@ -1643,7 +1643,7 @@
 1643,Brotherhood,New Order,1986-09-29,album,64,"Synthpop, New Wave, Alternative Dance"
 1644,Avalon,Roxy Music,1982-05-01,album,166,"Sophisti-Pop, New Romantic"
 1645,All the Pretty Little Horses,Current 93,1996-01-01,album,69,Neofolk
-1646,"Those Who Tell the Truth Shall Die, Those Who Tell the Truth Shall Live Forever",Explosions in the Sky,2001-09-04,album,73,Post-Rock
+1646,Those Who Tell the Truth Shall Die  Those Who Tell the Truth Shall Live Forever,Explosions in the Sky,2001-09-04,album,73,Post-Rock
 1647,Knife Play,Xiu Xiu,2002-02-19,album,44,"Experimental Rock, Synth Punk"
 1648,Product,SOPHIE,2015-11-26,album,41,Bubblegum Bass
 1649,Garlands,Cocteau Twins,1982-07-10,album,97,"Gothic Rock, Post-Punk, Ethereal Wave"
@@ -1678,7 +1678,7 @@
 1678,Fallen,Evanescence,2003-03-04,album,187,"Alternative Metal, Alternative Rock"
 1679,Литоургиiа (Litourgiya),Батюшка [Batushka],2015-12-04,album,44,Black Metal
 1680,Take Off Your Pants and Jacket,Blink-182,2001-06-12,album,97,Pop Punk
-1681,"But, What Ends When the Symbols Shatter?",Death in June,1992-01-01,album,58,Neofolk
+1681,But What Ends When the Symbols Shatter?,Death in June,1992-01-01,album,58,Neofolk
 1682,Catch a Fire,Bob Marley and The WailersBob MarleyThe Wailers,1973-04-01,album,101,Roots Reggae
 1683,There Is Nothing Left to Lose,Foo Fighters,1999-11-02,album,114,"Alternative Rock, Post-Grunge"
 1684,Oxymoron,ScHoolboy Q,2014-02-25,album,45,"West Coast Hip Hop, Gangsta Rap, Hardcore Hip Hop"
@@ -1720,10 +1720,10 @@
 1720,Americana,The Offspring,1998-11-17,album,131,"Skate Punk, Pop Punk, Punk Rock"
 1721,Shades of Blue: Madlib Invades Blue Note,Madlib,2003-06-24,album,52,"Instrumental Hip Hop, Jazz Rap, West Coast Hip Hop"
 1722,Countdown to Ecstasy,Steely Dan,1973-07-01,album,103,Pop Rock
-1723,"Home, Like Noplace Is There",The Hotelier,2014-02-18,album,47,Emo
+1723,Home  Like Noplace Is There,The Hotelier,2014-02-18,album,47,Emo
 1724,The First Glass Beach Album,Glass Beach,2019-05-18,album,72,"Power Pop, Indie Rock, Art Rock"
 1725,Viva Hate,Morrissey,1988-03-14,album,95,Jangle Pop
-1726,"Burritos, Inspiration Point, Fork Balloon Sports, Cards in the Spokes, Automatic Biographies, Kites, Kung Fu, Trophies, Banana Peels We've Slipped On and Egg Shells We've Tippy Toed Over",Cap'n Jazz,1995-01-01,album,48,"Post-Hardcore, Midwest Emo"
+1726,Burritos Inspiration Point Fork Balloon Sports Cards in the Spoke Automatic Biographies Kites Kung Fu Trophies Banana Peels We've Slipped On and Egg Shells We've Tippy Toed Over,Cap'n Jazz,1995-01-01,album,48,"Post-Hardcore, Midwest Emo"
 1727,Extraordinary Machine,Fiona Apple,2005-10-04,album,91,"Singer-Songwriter, Piano Rock, Art Pop"
 1728,Terminal Redux,Vektor,2016-05-06,album,85,Technical Thrash Metal
 1729,Black Monk Time,Monks,1966-03-01,album,140,"Garage Rock, Proto-Punk"
@@ -1740,25 +1740,25 @@
 1740,Picaresque,The Decemberists,2005-03-22,album,141,"Chamber Pop, Indie Folk, Indie Pop"
 1741,Younger Than Yesterday,The Byrds,1967-02-06,album,155,"Folk Rock, Psychedelic Pop, Pop Rock"
 1742,Thank Me Later,Drake,2010-06-15,album,65,Pop Rap
-1743,"The Wild, the Innocent & the E Street Shuffle",Bruce Springsteen,1973-11-05,album,130,Heartland Rock
+1743,The Wild the Innocent & the E Street Shuffle,Bruce Springsteen,1973-11-05,album,130,Heartland Rock
 1744,Rather Ripped,Sonic Youth,2006-06-13,album,97,"Alternative Rock, Indie Rock"
 1745,4 Your Eyez Only,J. Cole,2016-12-09,album,41,Conscious Hip Hop
 1746,AmeriKKKa's Most Wanted,Ice Cube,1990-05-16,album,108,"West Coast Hip Hop, Gangsta Rap, Political Hip Hop, Hardcore Hip Hop"
 1747,Masked Dancers: Concern in So Many Things You Forget Where You Are,The Brave Little Abacus,2009-08-01,album,55,"Midwest Emo, Math Rock"
 1748,Wasting Light,Foo Fighters,2011-04-12,album,118,"Alternative Rock, Hard Rock"
-1749,"I Brought You My Bullets, You Brought Me Your Love",My Chemical Romance,2002-07-23,album,72,"Post-Hardcore, Emo"
+1749,I Brought You My Bullets You Brought Me Your Love,My Chemical Romance,2002-07-23,album,72,"Post-Hardcore, Emo"
 1750,DiCaprio 2,J.I.D,2018-11-26,album,26,Southern Hip Hop
 1751,Dr. Octagon,Dr. Octagon,1996-05-02,album,118,Abstract Hip Hop
 1752,Paysage d'Hiver,Paysage d'Hiver,1999-01-01,album,70,Atmospheric Black Metal
 1753,Jackson C. Frank,Jackson C. Frank,1965-12-01,album,73,"Contemporary Folk, Singer-Songwriter"
-1754,"Il buono, il brutto, il cattivo",Ennio Morricone,1966-12-23,album,83,"Film Score, Spaghetti Western"
+1754,Il buono  il brutto  il cattivo,Ennio Morricone,1966-12-23,album,83,"Film Score, Spaghetti Western"
 1755,Lionheart,Kate Bush,1978-11-13,album,96,Art Pop
 1756,Come On Die Young,Mogwai,1999-03-29,album,78,Post-Rock
 1757,The Game,Queen,1980-06-30,album,128,Pop Rock
 1758,Construção,Chico Buarque,1971-01-01,album,71,"MPB, Singer-Songwriter"
 1759,Tilt,Scott Walker,1995-05-08,album,88,"Experimental, Singer-Songwriter, Post-Industrial"
 1760,FutureSex / LoveSounds,Justin Timberlake,2006-09-12,album,122,"Dance-Pop, Contemporary R&B"
-1761,Brain Salad Surgery,"Emerson, Lake & Palmer",1973-11-19,album,164,"Progressive Rock, Symphonic Prog"
+1761,Brain Salad Surgery,Emerson  Lake & Palmer,1973-11-19,album,164,"Progressive Rock, Symphonic Prog"
 1762,In Rainbows Disk 2,Radiohead,2009-06-09,album,20,"Art Rock, Alternative Rock"
 1763,Splendor & Misery,clipping.,2016-09-09,album,37,"Industrial Hip Hop, Abstract Hip Hop"
 1764,The Snow Goose,Camel,1975-05-01,album,108,"Symphonic Prog, Progressive Rock"
@@ -1783,7 +1783,7 @@
 1783,Nectar,Joji,2020-09-25,album,72,"Alternative R&B, Alt-Pop"
 1784,Los Angeles,X,1980-04-01,album,116,Punk Rock
 1785,Third Side of Tape,Lil Ugly Mane,2015-04-29,album,51,"Experimental Hip Hop, Instrumental Hip Hop"
-1786,"Whenever, If Ever",The World Is a Beautiful Place & I Am No Longer Afraid to Die,2013-06-18,album,48,Midwest Emo
+1786,Whenever  If Ever,The World Is a Beautiful Place & I Am No Longer Afraid to Die,2013-06-18,album,48,Midwest Emo
 1787,Signals,Rush,1982-09-25,album,131,Progressive Rock
 1788,Diamond Life,Sade,1984-07-16,album,64,"Smooth Soul, Sophisti-Pop"
 1789,Sound Ancestors,Madlib,2021-01-29,album,43,Instrumental Hip Hop
@@ -1802,7 +1802,7 @@
 1802,Soul Mining,The The,1983-10-21,album,88,"New Wave, Art Pop"
 1803,All Hope Is Gone,Slipknot,2008-08-26,album,102,Alternative Metal
 1804,Kveldssanger,Ulver,1996-03-01,album,62,Dark Folk
-1805,"Music From the Unrealized Film Script, Dusk at Cubist Castle",The Olivia Tremor Control,1996-08-06,album,93,"Neo-Psychedelia, Psychedelic Pop"
+1805,Music From the Unrealized Film Script  Dusk at Cubist Castle,The Olivia Tremor Control,1996-08-06,album,93,"Neo-Psychedelia, Psychedelic Pop"
 1806,One by One,Foo Fighters,2002-10-22,album,130,"Alternative Rock, Post-Grunge"
 1807,Beyoncé,Beyoncé,2013-12-13,album,46,Contemporary R&B
 1808,Sea of Worry,Have a Nice Life,2019-11-08,album,43,"Post-Punk, Gothic Rock"
@@ -1835,7 +1835,7 @@
 1835,Remind Me Tomorrow,Sharon Van Etten,2019-01-18,album,52,"Indie Pop, Synthpop, Alternative Rock"
 1836,Duster,Duster,2019-12-13,album,34,"Slowcore, Space Rock Revival"
 1837,Keeper of the Seven Keys Part I,Helloween,1987-05-23,album,87,Power Metal
-1838,"Crosby, Stills & Nash","Crosby, Stills & Nash",1969-05-29,album,125,Folk Rock
+1838,Crosby  Stills & Nash,Crosby  Stills & Nash,1969-05-29,album,125,Folk Rock
 1839,Brave Murder Day,Katatonia,1996-11-01,album,83,Death Doom Metal
 1840,Drones,Muse,2015-06-08,album,90,Alternative Rock
 1841,Going Places,Yellow Swans,2010-02-22,album,45,"Noise, Drone"
@@ -1848,7 +1848,7 @@
 1848,Radio Amor,Tim Hecker,2003-03-25,album,41,"Ambient, Drone"
 1849,Hard Normal Daddy,Squarepusher,1997-04-28,album,48,Drilland Bass
 1850,The Top,The Cure,1984-05-22,album,95,"Post-Punk, New Wave"
-1851,"Reise, Reise",Rammstein,2004-09-27,album,69,Neue Deutsche Härte
+1851,Reise  Reise,Rammstein,2004-09-27,album,69,Neue Deutsche Härte
 1852,The Colour in Anything,James Blake,2016-05-06,album,56,"Alternative R&B, Art Pop"
 1853,Garbage,Garbage,1995-08-15,album,126,Alternative Rock
 1854,Satori,Flower Travellin' Band,1971-04-25,album,103,Heavy Psych
@@ -1856,12 +1856,12 @@
 1856,Cryptograms,Deerhunter,2007-01-29,album,84,"Neo-Psychedelia, Experimental Rock, Indie Rock"
 1857,Dedicated to Bobby Jameson,Ariel Pink,2017-09-15,album,32,"Hypnagogic Pop, Psychedelic Pop"
 1858,Blood Money,Tom Waits,2002-05-06,album,73,"Singer-Songwriter, Experimental Rock, Dark Cabaret"
-1859,"Thunder, Lightning, Strike",The Go! Team,2004-09-13,album,125,"Indietronica, Indie Rock, Alternative Dance"
+1859,Thunder  Lightning  Strike,The Go! Team,2004-09-13,album,125,"Indietronica, Indie Rock, Alternative Dance"
 1860,World Eater,Blanck Mass,2017-03-03,album,38,"Electro-Industrial, Post-Industrial"
 1861,(No Pussyfooting),Fripp & Eno,1973-11-01,album,85,"Ambient, Drone"
 1862,Psychic,Darkside,2013-10-08,album,33,Electronic
 1863,The Wild Hunt,The Tallest Man on Earth,2010-04-13,album,111,"Contemporary Folk, Singer-Songwriter"
-1864,"Night Time, My Time",Sky Ferreira,2013-10-29,album,43,"Synthpop, Noise Pop"
+1864,Night Time  My Time,Sky Ferreira,2013-10-29,album,43,"Synthpop, Noise Pop"
 1865,Our Endless Numbered Days,Iron + Wine,2004-03-23,album,94,"Indie Folk, Singer-Songwriter, Contemporary Folk"
 1866,Sin After Sin,Judas Priest,1977-04-08,album,112,Heavy Metal
 1867,Out of Our Heads,The Rolling Stones,1965-07-30,album,114,British Rhythm & Blues
@@ -1943,7 +1943,7 @@
 1943,Zooropa,U2,1993-07-05,album,169,"Alternative Rock, Art Pop"
 1944,Panzerfaust,Darkthrone,1995-06-06,album,53,Black Metal
 1945,Peaceful as Hell,Black Dresses,2020-04-13,album,49,"Electro-Industrial, Industrial Rock"
-1946,"Experimental Jet Set, Trash and No Star",Sonic Youth,1994-05-10,album,102,"Noise Rock, Alternative Rock"
+1946,Experimental Jet Set  Trash and No Star,Sonic Youth,1994-05-10,album,102,"Noise Rock, Alternative Rock"
 1947,My Name Is My Name,Pusha T,2013-10-08,album,40,"Gangsta Rap, Southern Hip Hop, Hardcore Hip Hop"
 1948,Burn,Deep Purple,1974-02-15,album,130,Hard Rock
 1949,Underwater Moonlight,The Soft Boys,1980-06-28,album,95,"Neo-Psychedelia, Jangle Pop, Post-Punk"
@@ -2018,17 +2018,17 @@
 2018,Citrus,Asobi Seksu,2006-05-30,album,64,"Shoegaze, Dream Pop"
 2019,KicK iii,Arca,2021-12-01,album,36,"Deconstructed Club, Glitch Hop, Experimental Hip Hop"
 2020,The X Factor,Iron Maiden,1995-10-02,album,133,Heavy Metal
-2021,"Lifted or The Story Is in the Soil, Keep Your Ear to the Ground",Bright Eyes,2002-08-13,album,112,Indie Folk
+2021,Lifted or The Story Is in the Soil  Keep Your Ear to the Ground,Bright Eyes,2002-08-13,album,112,Indie Folk
 2022,Workingman's Dead,Grateful Dead,1970-06-14,album,131,"Folk Rock, Country Rock"
 2023,Torches,Foster the People,2011-05-24,album,81,"Indie Pop, Alternative Dance, Dance-Pop"
 2024,Rubycon,Tangerine Dream,1975-03-21,album,67,Berlin School
 2025,Boarding House Reach,Jack White,2018-03-23,album,70,"Blues Rock, Experimental Rock, Art Rock"
 2026,Milestones,Miles Davis,1958-09-02,album,63,Hard Bop
-2027,"Haunt Me, Haunt Me Do It Again",Tim Hecker,2001-11-20,album,31,Ambient
+2027,Haunt Me  Haunt Me Do It Again,Tim Hecker,2001-11-20,album,31,Ambient
 2028,Mystic Familiar,Dan Deacon,2020-01-31,album,39,"Neo-Psychedelia, Indietronica, Indie Pop"
 2029,We Cool?,Jeff Rosenstock,2015-03-03,album,27,"Pop Punk, Power Pop, Indie Rock"
 2030,It'll End in Tears,This Mortal Coil,1984-10-01,album,68,"Dream Pop, Ethereal Wave"
-2031,"Dig, Lazarus, Dig!!!",Nick Cave & The Bad Seeds,2008-03-03,album,104,"Post-Punk, Alternative Rock"
+2031,Dig  Lazarus  Dig!!!,Nick Cave & The Bad Seeds,2008-03-03,album,104,"Post-Punk, Alternative Rock"
 2032,Systematic Chaos,Dream Theater,2007-06-05,album,160,Progressive Metal
 2033,Metal Machine Music: The Amine β Ring,Lou Reed,1975-07-01,album,240,Noise
 2034,Misplaced Childhood,Marillion,1985-06-17,album,132,Neo-Prog
@@ -2046,7 +2046,7 @@
 2046,Apologies to the Queen Mary,Wolf Parade,2005-09-27,album,109,Indie Rock
 2047,Adventure,Television,1978-04-01,album,115,"Post-Punk, New Wave"
 2048,It's Blitz!,Yeah Yeah Yeahs,2009-03-09,album,116,"New Rave, Alternative Dance, Indie Rock"
-2049,"Reading, Writing and Arithmetic",The Sundays,1990-01-15,album,90,"Jangle Pop, Indie Pop"
+2049,Reading  Writing and Arithmetic,The Sundays,1990-01-15,album,90,"Jangle Pop, Indie Pop"
 2050,Hurley,Weezer,2010-09-10,album,84,"Power Pop, Alternative Rock"
 2051,Significant Other,Limp Bizkit,1999-06-22,album,142,"Nu Metal, Rap Metal, Rap Rock"
 2052,Altar,Sunn O))) & Boris,2006-10-23,album,51,Drone
@@ -2103,7 +2103,7 @@
 2103,Today's Active Lifestyles,Polvo,1993-04-19,album,49,"Math Rock, Indie Rock, Noise Rock"
 2104,Ommadawn,Mike Oldfield,1975-10-21,album,90,"Progressive Rock, New Age, Celtic New Age"
 2105,Dub Housing,Pere Ubu,1978-11-11,album,82,"Post-Punk, Experimental Rock, Art Punk"
-2106,Danse Manatee,"Panda, Geologist & AveyPanda BearGeologistAvey Tare",2001-06-30,album,89,Experimental
+2106,Danse Manatee,Panda  Geologist & AveyPanda BearGeologistAvey Tare,2001-06-30,album,89,Experimental
 2107,Watching Movies With the Sound Off,Mac Miller,2013-06-18,album,28,"Abstract Hip Hop, Cloud Rap"
 2108,Andrew Bird & The Mysterious Production of Eggs,Andrew Bird,2005-02-08,album,94,"Singer-Songwriter, Chamber Pop"
 2109,Virtual XI,Iron Maiden,1998-03-23,album,138,Heavy Metal
@@ -2160,8 +2160,8 @@
 2160,Monotheist,Celtic Frost,2006-05-30,album,92,Doom Metal
 2161,Dangerous Woman,Ariana Grande,2016-05-20,album,29,"Contemporary R&B, Dance-Pop"
 2162,Invasion of Privacy,Cardi B,2018-04-06,album,61,"Trap, East Coast Hip Hop"
-2163,"A Wizard, a True Star",Todd Rundgren,1973-03-29,album,132,"Art Pop, Experimental Rock, Art Rock, Progressive Pop"
-2164,"Echoes, Silence, Patience & Grace",Foo Fighters,2007-09-25,album,88,"Alternative Rock, Post-Grunge"
+2163,A Wizard  a True Star,Todd Rundgren,1973-03-29,album,132,"Art Pop, Experimental Rock, Art Rock, Progressive Pop"
+2164,Echoes  Silence  Patience & Grace,Foo Fighters,2007-09-25,album,88,"Alternative Rock, Post-Grunge"
 2165,Katy Lied,Steely Dan,1975-03-01,album,99,Pop Rock
 2166,99.9%,Kaytranada,2016-05-06,album,20,"Alternative R&B, Funky House"
 2167,Jackboys,Jackboys & Travis Scott,2019-12-27,album,24,"Trap, Pop Rap"
@@ -2223,7 +2223,7 @@
 2223,Secret Treaties,Blue Öyster Cult,1974-04-01,album,124,Hard Rock
 2224,Pure Holocaust,Immortal,1993-11-01,album,73,Black Metal
 2225,Kodama,Alcest,2016-09-30,album,36,"Blackgaze, Shoegaze, Post-Metal"
-2226,"Orphans: Brawlers, Bawlers & Bastards",Tom Waits,2006-11-20,album,116,"Singer-Songwriter, Blues Rock, Folk Rock"
+2226,Orphans: Brawlers  Bawlers & Bastards,Tom Waits,2006-11-20,album,116,"Singer-Songwriter, Blues Rock, Folk Rock"
 2227,Wolfmother,Wolfmother,2005-10-30,album,194,Hard Rock
 2228,It's Album Time,Todd Terje,2014-04-07,album,51,"Nu-Disco, Electro-Disco"
 2229,Gentlemen,The Afghan Whigs,1993-10-05,album,106,Alternative Rock
@@ -2231,7 +2231,7 @@
 2231,Night Visions,Imagine Dragons,2012-09-04,album,38,Pop Rock
 2232,One of Us Is the Killer,The Dillinger Escape Plan,2013-05-14,album,34,Mathcore
 2233,Ghosts I-IV,Nine Inch Nails,2008-03-02,album,98,"Ambient, Electronic, Post-Industrial"
-2234,"Greetings From Asbury Park, N.J.",Bruce Springsteen,1973-01-05,album,121,Heartland Rock
+2234,Greetings From Asbury Park  N.J.,Bruce Springsteen,1973-01-05,album,121,Heartland Rock
 2235,The Pod,Ween,1991-09-20,album,86,"Experimental Rock, Neo-Psychedelia, Lo-Fi/Slacker Rock, Noise Rock"
 2236,23,Blonde Redhead,2007-04-16,album,84,"Dream Pop, Indie Rock"
 2237,Wildlife,La Dispute,2011-10-04,album,59,Post-Hardcore
@@ -2316,7 +2316,7 @@
 2316,The Book of Souls,Iron Maiden,2015-09-04,album,86,Heavy Metal
 2317,Damned Damned Damned,The Damned,1977-02-18,album,102,Punk Rock
 2318,Magma,Gojira,2016-06-17,album,33,"Progressive Metal, Groove Metal"
-2319,"Lick My Decals Off, Baby",Captain Beefheart & The Magic Band,1970-12-01,album,107,Experimental Rock
+2319,Lick My Decals Off  Baby,Captain Beefheart & The Magic Band,1970-12-01,album,107,Experimental Rock
 2320,Days,Real Estate,2011-10-17,album,77,"Indie Pop, Jangle Pop, Indie Surf"
 2321,The Raincoats,The Raincoats,1979-11-01,album,55,"Post-Punk, Art Punk"
 2322,A Written Testimony,Jay Electronica,2020-03-13,album,51,"Conscious Hip Hop, Abstract Hip Hop"
@@ -2340,7 +2340,7 @@
 2340,The Inalienable Dreamless,Discordance Axis,2000-08-01,album,68,Grindcore
 2341,Gentle Giant,Gentle Giant,1970-11-27,album,81,Progressive Rock
 2342,In Sides,Orbital,1996-04-29,album,65,Ambient Techno
-2343,"Beats, Rhymes and Life",A Tribe Called Quest,1996-07-30,album,61,"East Coast Hip Hop, Boom Bap"
+2343,Beats  Rhymes and Life,A Tribe Called Quest,1996-07-30,album,61,"East Coast Hip Hop, Boom Bap"
 2344,Songs the Lord Taught Us,The Cramps,1980-04-01,album,64,"Psychobilly, Garage Punk"
 2345,Stoney,Post Malone,2016-12-09,album,22,"Alternative R&B, Pop Rap"
 2346,My Agenda,Dorian Electra,2020-10-16,album,52,"Hyperpop, Electropop, Electronic Dance Music"
@@ -2361,7 +2361,7 @@
 2361,Rock Action,Mogwai,2001-04-24,album,55,Post-Rock
 2362,Catch Thirtythree,Meshuggah,2005-05-23,album,95,Djent
 2363,Róisín Machine,Róisín Murphy,2020-10-02,album,38,Nu-Disco
-2364,Gris-Gris,"Dr. John, The Night Tripper",1968-01-22,album,99,"New Orleans R&B, Psychedelic Rock, Psychedelic Soul"
+2364,Gris-Gris,Dr. John  The Night Tripper,1968-01-22,album,99,"New Orleans R&B, Psychedelic Rock, Psychedelic Soul"
 2365,Emperor of Sand,Mastodon,2017-03-31,album,51,Progressive Metal
 2366,Neon Golden,The Notwist,2002-02-06,album,68,"Indietronica, Indie Pop"
 2367,Close to a World Below,Immolation,2000-11-07,album,77,Death Metal
@@ -2393,7 +2393,7 @@
 2393,Fear Fun,Father John Misty,2012-05-01,album,37,"Indie Folk, Singer-Songwriter"
 2394,No Need to Argue,The Cranberries,1994-10-04,album,80,"Alternative Rock, Pop Rock"
 2395,Live at the Witch Trials,The Fall,1979-03-16,album,82,Post-Punk
-2396,"Fas – Ite, maledicti, in ignem aeternum",Deathspell Omega,2007-07-16,album,57,Black Metal
+2396,Fas – Ite  maledicti  in ignem aeternum,Deathspell Omega,2007-07-16,album,57,Black Metal
 2397,Rubber Factory,The Black Keys,2004-09-07,album,71,Blues Rock
 2398,Inlet,Hum,2020-06-23,album,54,"Shoegaze, Alternative Metal"
 2399,The Works,Queen,1984-02-27,album,83,Pop Rock
@@ -2465,7 +2465,7 @@
 2465,All Mod Cons,The Jam,1978-11-03,album,87,"Mod Revival, New Wave, Power Pop"
 2466,Acquiring the Taste,Gentle Giant,1971-07-16,album,82,Progressive Rock
 2467,Parallelograms,Linda Perhacs,1970-11-01,album,76,"Psychedelic Folk, Singer-Songwriter"
-2468,"All Is Violent, All Is Bright",God Is an Astronaut,2005-02-04,album,57,Post-Rock
+2468,All Is Violent  All Is Bright,God Is an Astronaut,2005-02-04,album,57,Post-Rock
 2469,Agent Orange,Sodom,1989-06-01,album,56,Thrash Metal
 2470,The Power to Believe,King Crimson,2003-03-04,album,90,"Progressive Rock, Progressive Metal"
 2471,Primary Colours,The Horrors,2009-05-04,album,88,"Post-Punk, Shoegaze"
@@ -2485,8 +2485,8 @@
 2485,서울여자 (Soul Lady),유키카 [YUKIKA],2020-07-21,album,37,"K-Pop, City Pop, Dance-Pop"
 2486,Somewhere Along the Highway,Cult of Luna,2006-04-24,album,60,"Atmospheric Sludge Metal, Post-Metal"
 2487,Hot Space,Queen,1982-05-21,album,115,Pop Rock
-2488,"You've Come a Long Way, Baby",Fatboy Slim,1998-10-20,album,92,Big Beat
-2489,Trilogy,"Emerson, Lake & Palmer",1972-01-01,album,114,"Progressive Rock, Symphonic Prog"
+2488,You've Come a Long Way  Baby,Fatboy Slim,1998-10-20,album,92,Big Beat
+2489,Trilogy,Emerson  Lake & Palmer,1972-01-01,album,114,"Progressive Rock, Symphonic Prog"
 2490,Divine Intervention,Slayer,1994-09-27,album,99,Thrash Metal
 2491,Let's Get Out of This Country,Camera Obscura,2006-06-05,album,89,"Twee Pop, Indie Pop"
 2492,Tindersticks,Tindersticks,1993-10-11,album,82,Chamber Pop
@@ -2512,7 +2512,7 @@
 2512,Forever in Your Heart,Black Dresses,2021-02-14,album,41,"Electro-Industrial, Industrial Rock"
 2513,I Like It When You Sleep for You Are So Beautiful Yet So Unaware of It,The 1975,2016-02-26,album,39,"Synthpop, Pop Rock, Alt-Pop"
 2514,Black Sunday,Cypress Hill,1993-07-20,album,80,"West Coast Hip Hop, Gangsta Rap"
-2515,"Everybody Else Is Doing It, So Why Can't We?",The Cranberries,1993-03-01,album,72,"Alternative Rock, Pop Rock, Dream Pop"
+2515,Everybody Else Is Doing It  So Why Can't We?,The Cranberries,1993-03-01,album,72,"Alternative Rock, Pop Rock, Dream Pop"
 2516,Split,Lush,1994-06-14,album,47,"Shoegaze, Dream Pop"
 2517,1000 Hurts,Shellac,2000-08-08,album,49,"Noise Rock, Post-Hardcore, Math Rock"
 2518,Xen,Arca,2014-11-03,album,18,"Wonky, Glitch Hop"
@@ -2629,7 +2629,7 @@
 2629,Tango in the Night,Fleetwood Mac,1987-04-13,album,85,"Pop Rock, Soft Rock"
 2630,Heartattack and Vine,Tom Waits,1980-09-09,album,75,"Singer-Songwriter, Blues Rock"
 2631,New History Warfare Vol. 2: Judges,Colin Stetson,2011-02-22,album,75,"Post-Minimalism, Experimental"
-2632,Fetti,"Curren$y, Freddie Gibbs & The Alchemist",2018-10-31,album,18,Gangsta Rap
+2632,Fetti,Curren$y  Freddie Gibbs & The Alchemist,2018-10-31,album,18,Gangsta Rap
 2633,Easter Everywhere,13th Floor Elevators,1967-10-25,album,118,Psychedelic Rock
 2634,qp,青葉市子 [Ichiko Aoba],2018-10-24,album,19,"Contemporary Folk, Singer-Songwriter"
 2635,Total Life Forever,Foals,2010-05-10,album,52,Indie Rock
@@ -2662,7 +2662,7 @@
 2662,Soon Over Babaluma,Can,1974-11-01,album,67,Krautrock
 2663,The Return......,Bathory,1985-05-27,album,42,"Black Metal, Thrash Metal"
 2664,Destroyer's Rubies,Destroyer,2006-02-21,album,80,"Chamber Pop, Indie Rock"
-2665,"Si monvmentvm reqvires, circvmspice",Deathspell Omega,2004-02-01,album,54,Black Metal
+2665,Si monvmentvm reqvires  circvmspice,Deathspell Omega,2004-02-01,album,54,Black Metal
 2666,Cigarettes After Sex,Cigarettes After Sex,2017-06-09,album,42,"Dream Pop, Slowcore"
 2667,Pretty. Odd.,Panic at the Disco,2008-03-25,album,90,"Pop Rock, Baroque Pop"
 2668,Sometimes I Wish We Were an Eagle,Bill Callahan,2009-04-14,album,60,"Singer-Songwriter, Alt-Country, Americana"
@@ -2740,7 +2740,7 @@
 2740,Bon voyage,Melody's Echo Chamber,2018-06-15,album,29,"Neo-Psychedelia, Progressive Pop"
 2741,American Recordings,Johnny Cash,1994-04-26,album,73,"Americana, Country"
 2742,Days Are Gone,Haim,2013-10-01,album,41,Pop Rock
-2743,D&G,"Bladee, Ecco2K & Thaiboy Digital",2017-08-08,album,6,"Cloud Rap, Alternative R&B"
+2743,D&G,Bladee  Ecco2K & Thaiboy Digital,2017-08-08,album,6,"Cloud Rap, Alternative R&B"
 2744,Tell Me How You Really Feel,Courtney Barnett,2018-05-18,album,33,"Indie Rock, Singer-Songwriter"
 2745,Speak Now,Taylor Swift,2010-10-25,album,41,"Pop Rock, Singer-Songwriter"
 2746,The Miracle,Queen,1989-05-22,album,77,Pop Rock
@@ -2754,7 +2754,7 @@
 2754,Are We There,Sharon Van Etten,2014-05-27,album,38,Singer-Songwriter
 2755,Excavation,The Haxan Cloak,2013-04-15,album,38,"Dark Ambient, Ambient Dub"
 2756,I Am Easy to Find,The National,2019-05-17,album,50,Chamber Pop
-2757,"Passion, Pain & Demon Slayin'",Kid Cudi,2016-12-16,album,20,"Pop Rap, Alternative R&B, Ambient Pop"
+2757,Passion  Pain & Demon Slayin',Kid Cudi,2016-12-16,album,20,"Pop Rap, Alternative R&B, Ambient Pop"
 2758,Ocean Beach,Red House Painters,1995-03-28,album,48,"Slowcore, Folk Rock"
 2759,Silence Yourself,Savages,2013-05-07,album,63,Post-Punk
 2760,Within and Without,Washed Out,2011-07-12,album,64,Chillwave
@@ -2799,7 +2799,7 @@
 2799,The New Order,Testament,1988-05-10,album,94,Thrash Metal
 2800,Let the Sun Talk,Mavi,2019-10-06,album,21,"Abstract Hip Hop, Jazz Rap, East Coast Hip Hop"
 2801,Rough and Rowdy Ways,Bob Dylan,2020-06-19,album,71,"Singer-Songwriter, Americana"
-2802,"Entertainment, Death",Spirit of the Beehive,2021-04-09,album,26,"Neo-Psychedelia, Noise Pop"
+2802,Entertainment  Death,Spirit of the Beehive,2021-04-09,album,26,"Neo-Psychedelia, Noise Pop"
 2803,Fearless,Taylor Swift,2008-11-11,album,59,"Country Pop, Pop Rock"
 2804,Wavering Radiant,Isis,2009-04-21,album,83,"Atmospheric Sludge Metal, Post-Metal"
 2805,The 1975,The 1975,2013-09-02,album,33,Pop Rock
@@ -2809,7 +2809,7 @@
 2809,Tical,Method Man,1994-11-15,album,110,"East Coast Hip Hop, Boom Bap, Hardcore Hip Hop"
 2810,Resurrection,Common Sense,1994-10-04,album,73,"Conscious Hip Hop, Boom Bap, Jazz Rap"
 2811,Please,Pet Shop Boys,1986-03-24,album,62,"Synthpop, Dance-Pop"
-2812,"Bark Your Head Off, Dog",Hop Along,2018-04-06,album,37,Indie Rock
+2812,Bark Your Head Off  Dog,Hop Along,2018-04-06,album,37,Indie Rock
 2813,Under Pressure,Logic,2014-10-21,album,28,"East Coast Hip Hop, Pop Rap"
 2814,The House Is Burning,Isaiah Rashad,2021-07-30,album,37,Southern Hip Hop
 2815,Honky Château,Elton John,1972-05-19,album,77,"Piano Rock, Pop Rock, Singer-Songwriter"
@@ -2878,7 +2878,7 @@
 2878,Outer Isolation,Vektor,2011-11-22,album,64,Technical Thrash Metal
 2879,Diabolus in musica,Slayer,1998-06-09,album,77,"Thrash Metal, Groove Metal"
 2880,Returnal,Oneohtrix Point Never,2010-06-18,album,27,"Ambient, Progressive Electronic"
-2881,"Fold Your Hands Child, You Walk Like a Peasant",Belle & Sebastian,2000-06-06,album,87,"Twee Pop, Indie Pop"
+2881,Fold Your Hands Child  You Walk Like a Peasant,Belle & Sebastian,2000-06-06,album,87,"Twee Pop, Indie Pop"
 2882,Diadem of 12 Stars,Wolves in the Throne Room,2006-02-05,album,44,Atmospheric Black Metal
 2883,Introspective,Pet Shop Boys,1988-10-10,album,51,"Synthpop, Dance-Pop, Hi-NRG"
 2884,Fading Frontier,Deerhunter,2015-10-16,album,30,"Indie Rock, Neo-Psychedelia"
@@ -2906,13 +2906,13 @@
 2906,Starfish,The Church,1988-02-16,album,87,"Jangle Pop, Neo-Psychedelia, Dream Pop"
 2907,Haha Sound,Broadcast,2003-08-11,album,57,"Dream Pop, Indietronica, Neo-Psychedelia"
 2908,Car Wheels on a Gravel Road,Lucinda Williams,1998-06-30,album,88,"Alt-Country, Americana, Singer-Songwriter"
-2909,"Huncho Jack, Jack Huncho",Huncho Jack,2017-12-21,album,32,"Trap, Southern Hip Hop"
+2909,Huncho Jack  Jack Huncho,Huncho Jack,2017-12-21,album,32,"Trap, Southern Hip Hop"
 2910,They Want My Soul,Spoon,2014-08-05,album,38,Indie Rock
 2911,Notes on a Conditional Form,The 1975,2020-05-22,album,88,"Electronic, Art Pop"
 2912,Simulation Theory,Muse,2018-11-09,album,63,"Pop Rock, Electropop"
 2913,Color Theory,Soccer Mommy,2020-02-28,album,30,"Singer-Songwriter, Bedroom Pop, Indie Pop"
 2914,25,Adele,2015-11-20,album,41,"Pop Soul, Adult Contemporary"
-2915,"Desperate Youth, Blood Thirsty Babes",TV on the Radio,2004-03-09,album,72,"Indie Rock, Art Rock"
+2915,Desperate Youth  Blood Thirsty Babes,TV on the Radio,2004-03-09,album,72,"Indie Rock, Art Rock"
 2916,Twilight of the Thunder God,Amon Amarth,2008-09-19,album,80,Melodic Death Metal
 2917,No Line on the Horizon,U2,2009-03-02,album,181,"Pop Rock, Art Rock"
 2918,Deicide,Deicide,1990-06-25,album,70,Death Metal
@@ -2936,7 +2936,7 @@
 2936,Geidi Primes,Grimes,2010-01-14,album,23,"Ethereal Wave, Indietronica, Dream Pop"
 2937,Fashion Nugget,Cake,1996-09-17,album,89,Alternative Rock
 2938,Broke With Expensive Taste,Azealia Banks,2014-11-08,album,40,"Hip House, East Coast Hip Hop"
-2939,"Hardcore Will Never Die, But You Will.",Mogwai,2011-02-14,album,74,Post-Rock
+2939,Hardcore Will Never Die  But You Will.,Mogwai,2011-02-14,album,74,Post-Rock
 2940,Porgy and Bess,Miles Davis,1959-03-01,album,69,"Big Band, Progressive Big Band"
 2941,Living Things,Linkin Park,2012-06-26,album,48,Alternative Rock
 2942,KISS,KISS,1974-07-01,album,112,"Hard Rock, Glam Rock"
@@ -2965,7 +2965,7 @@
 2965,Once,Nightwish,2004-06-02,album,84,"Symphonic Metal, Power Metal"
 2966,Still,Nine Inch Nails,2002-01-22,album,53,"Acoustic Rock, Singer-Songwriter"
 2967,Private Reasons,Bruno Pernadas,2021-04-23,album,32,"Progressive Pop, Psychedelic Pop"
-2968,The Moon and the Melodies,"Harold Budd, Elizabeth Fraser, Robin Guthrie & Simon Raymonde",1986-11-10,album,38,"Ambient, Dream Pop"
+2968,The Moon and the Melodies,Harold Budd  Elizabeth Fraser  Robin Guthrie & Simon Raymonde,1986-11-10,album,38,"Ambient, Dream Pop"
 2969,Flying Saucer Attack [Rural Psychedelia],Flying Saucer Attack,1993-01-01,album,45,"Shoegaze, Space Rock, Space Rock Revival"
 2970,Tha Carter II,Lil Wayne,2005-12-06,album,47,"Southern Hip Hop, Gangsta Rap"
 2971,Colony,In Flames,1999-05-31,album,67,Melodic Death Metal
@@ -3044,7 +3044,7 @@
 3044,Power Windows,Rush,1985-10-26,album,108,Progressive Rock
 3045,I Am...,Nas,1999-04-06,album,79,East Coast Hip Hop
 3046,April,Sun Kil Moon,2008-04-01,album,75,"Singer-Songwriter, Folk Rock, Contemporary Folk"
-3047,"Slow, Deep and Hard",Type O Negative,1991-06-11,album,57,"Doom Metal, Gothic Metal"
+3047,Slow  Deep and Hard,Type O Negative,1991-06-11,album,57,"Doom Metal, Gothic Metal"
 3048,Mass Romantic,The New Pornographers,2000-10-24,album,68,"Power Pop, Indie Pop"
 3049,Employment,Kaiser Chiefs,2005-03-07,album,138,"Indie Rock, Post-Punk Revival"
 3050,Dataplex,Ryoji Ikeda,2005-12-01,album,44,"Microsound, Glitch"
@@ -3092,7 +3092,7 @@
 3092,Eldorado,Electric Light Orchestra,1974-10-01,album,98,"Symphonic Rock, Art Rock, Progressive Pop"
 3093,///Codename: Dustsucker,Bark Psychosis,2004-07-26,album,44,Post-Rock
 3094,Blood Lust,Uncle Acid & The Deadbeats,2011-05-27,album,44,"Heavy Psych, Traditional Doom Metal"
-3095,"Father, Son, Holy Ghost",Girls,2011-09-13,album,76,"Indie Rock, Indie Pop, Indie Surf"
+3095,Father  Son  Holy Ghost,Girls,2011-09-13,album,76,"Indie Rock, Indie Pop, Indie Surf"
 3096,7G,A. G. Cook,2020-08-12,album,43,Electronic
 3097,Reanimation,Linkin Park,2002-07-30,album,109,"Rap Rock, Nu Metal, Experimental Hip Hop"
 3098,Leftoverture,Kansas,1976-11-01,album,94,Progressive Rock
@@ -3122,7 +3122,7 @@
 3122,The Lost Boy,YBN Cordae,2019-07-26,album,23,"Conscious Hip Hop, Jazz Rap, Southern Hip Hop"
 3123,Oneirology,CunninLynguists,2011-03-22,album,63,"Southern Hip Hop, Conscious Hip Hop"
 3124,Bark at the Moon,Ozzy Osbourne,1983-12-01,album,84,"Heavy Metal, Hard Rock"
-3125,"Three Dollar Bill, Yall$",Limp Bizkit,1997-07-01,album,74,"Nu Metal, Rap Metal"
+3125,Three Dollar Bill  Yall$,Limp Bizkit,1997-07-01,album,74,"Nu Metal, Rap Metal"
 3126,Miami,The Gun Club,1982-09-20,album,65,"Punk Blues, Post-Punk"
 3127,Quique,Seefeel,1993-12-01,album,50,"Ambient Techno, Ambient Dub"
 3128,The Power and the Glory,Gentle Giant,1974-09-22,album,69,Progressive Rock
@@ -3171,7 +3171,7 @@
 3171,Little Electric Chicken Heart,Ana Frango Elétrico,2019-09-12,album,25,"MPB, Chamber Pop, Jazz Pop"
 3172,God's Son,Nas,2002-12-10,album,78,"East Coast Hip Hop, Hardcore Hip Hop"
 3173,Spiritual Instinct,Alcest,2019-10-25,album,25,"Post-Metal, Blackgaze"
-3174,"Alright, Still",Lily Allen,2006-07-14,album,112,"Pop, Pop Reggae"
+3174,Alright  Still,Lily Allen,2006-07-14,album,112,"Pop, Pop Reggae"
 3175,Slow Train Coming,Bob Dylan,1979-08-20,album,111,"Christian Rock, Singer-Songwriter"
 3176,Get Happy!!,Elvis Costello & The Attractions,1980-02-15,album,110,"New Wave, Pop Rock"
 3177,A Natural Disaster,Anathema,2003-11-03,album,69,"Alternative Rock, Progressive Rock"
@@ -3194,7 +3194,7 @@
 3194,Anthem of the Sun,Grateful Dead,1968-07-18,album,108,"Psychedelic Rock, Jam Band"
 3195,Peripheral Vision,Turnover,2015-05-05,album,38,"Indie Rock, Dream Pop"
 3196,Everybody,Logic,2017-05-05,album,31,"Pop Rap, Political Hip Hop"
-3197,"If You're Into It, I'm Out of It",Christoph de Babalon,1997-01-01,album,29,"Breakcore, Jungle, Dark Ambient"
+3197,If You're Into It  I'm Out of It,Christoph de Babalon,1997-01-01,album,29,"Breakcore, Jungle, Dark Ambient"
 3198,Musick to Play in the Dark²,Coil,2000-09-01,album,28,"Electronic, Experimental, Post-Industrial"
 3199,The Disintegration Loops III,William Basinski,2003-04-01,album,28,"Tape Music, Ambient, Minimalism"
 3200,Weather Systems,Anathema,2012-04-16,album,103,Progressive Rock
@@ -3202,7 +3202,7 @@
 3202,Wild Mood Swings,The Cure,1996-05-07,album,91,"Alternative Rock, Pop Rock"
 3203,Imaginary Sonicscape,Sigh,2001-07-23,album,65,"Avant-Garde Metal, Progressive Metal"
 3204,Wave Notation 1: Music for Nine Post Cards,吉村弘 [Hiroshi Yoshimura],1982-01-01,album,17,Ambient
-3205,"Come Over When You're Sober, Pt. 2",Lil Peep,2018-11-09,album,19,Emo Rap
+3205,Come Over When You're Sober  Pt. 2,Lil Peep,2018-11-09,album,19,Emo Rap
 3206,Option Paralysis,The Dillinger Esc Plan,2010-03-23,album,51,Mathcore
 3207,Gemini,Wild Nothing,2010-05-25,album,49,"Dream Pop, Indie Pop, Bedroom Pop, Indie Surf"
 3208,Adolescents,Adolescents,1981-04-01,album,69,"Hardcore Punk, Punk Rock"
@@ -3211,7 +3211,7 @@
 3211,Nightmare Logic,Power Trip,2017-02-22,album,33,Thrash Metal
 3212,God Has Nothing to Do With This Leave Him Out of It,Backxwash,2020-05-30,album,25,"Industrial Hip Hop, Horrorcore"
 3213,John Prine,John Prine,1971-10-01,album,74,"Country, Singer-Songwriter, Contemporary Folk"
-3214,"How Big, How Blue, How Beautiful",Florence + The Machine,2015-06-01,album,31,"Art Pop, Alternative Rock"
+3214,How Big  How Blue  How Beautiful,Florence + The Machine,2015-06-01,album,31,"Art Pop, Alternative Rock"
 3215,Electric Café,Kraftwerk,1986-11-10,album,56,"Synthpop, Electronic"
 3216,Remedy Lane,Pain of Salvation,2002-01-15,album,87,Progressive Metal
 3217,Turn Out the Lights,Julien Baker,2017-10-27,album,26,Singer-Songwriter
@@ -3236,7 +3236,7 @@
 3236,I Am Not Afraid of You and I Will Beat Your Ass,Yo La Tengo,2006-09-12,album,80,Indie Rock
 3237,Miles,Blu & Exile,2020-07-17,album,24,"Conscious Hip Hop, West Coast Hip Hop, Jazz Rap"
 3238,Bloweyelashwish,Lovesliescrushing,1993-07-07,album,29,"Shoegaze, Ambient"
-3239,"How Strange, Innocence",Explosions in the Sky,2000-03-01,album,50,Post-Rock
+3239,How Strange  Innocence,Explosions in the Sky,2000-03-01,album,50,Post-Rock
 3240,Into the Labyrinth,Dead Can Dance,1993-09-13,album,43,Neoclassical Darkwave
 3241,Dauði Baldrs,Burzum,1997-10-14,album,67,Dungeon Synth
 3242,American Gangster,Jay-Z,2007-11-06,album,63,East Coast Hip Hop
@@ -3262,7 +3262,7 @@
 3262,Nouns,No Age,2008-05-06,album,101,"Noise Pop, Indie Rock"
 3263,Get Ready,New Order,2001-08-27,album,52,Alternative Rock
 3264,The Least We Can Do Is Wave to Each Other,Van der Graaf Generator,1970-02-01,album,61,Progressive Rock
-3265,"Ptah, the El Daoud",Alice Coltrane,1970-07-01,album,36,Spiritual Jazz
+3265,Ptah  the El Daoud,Alice Coltrane,1970-07-01,album,36,Spiritual Jazz
 3266,Didn't It Rain,Songs: Ohia,2002-03-05,album,35,"Singer-Songwriter, Contemporary Folk, Slowcore"
 3267,Greatest Hits,Remo Drive,2017-03-16,album,27,"Emo-Pop, Indie Rock"
 3268,Eliminator,ZZ Top,1983-03-23,album,83,"Hard Rock, Southern Rock"
@@ -3418,7 +3418,7 @@
 3418,Draft 7.30,Autechre,2003-04-07,album,51,"IDM, Experimental"
 3419,Delaware,Drop Nineteens,1992-06-05,album,39,"Shoegaze, Indie Rock"
 3420,Tour de France Soundtracks,Kraftwerk,2003-08-04,album,48,Techno
-3421,Planetarium,"Sufjan Stevens, Nico Muhly, Bryce Dessner & James McAlister",2017-06-09,album,22,"Art Pop, Indietronica, Ambient Pop"
+3421,Planetarium,Sufjan Stevens  Nico Muhly  Bryce Dessner & James McAlister,2017-06-09,album,22,"Art Pop, Indietronica, Ambient Pop"
 3422,The Sufferer & the Witness,Rise Against,2006-07-04,album,56,"Melodic Hardcore, Punk Rock"
 3423,Lightning to the Nations,Diamond Head,1980-10-03,album,89,"NWOBHM, Heavy Metal"
 3424,12 Bar Bruise,King Gizzard & The Lizard Wizard,2012-09-07,album,22,"Garage Rock, Noise Rock"
@@ -3439,7 +3439,7 @@
 3439,A divina comédia ou ando meio desligado,Mutantes,1970-03-01,album,48,"Psychedelic Rock, Tropicália"
 3440,Into the Pandemonium,Celtic Frost,1987-06-01,album,57,"Thrash Metal, Avant-Garde Metal"
 3441,30,Adele,2021-11-19,album,61,Pop Soul
-3442,"Brother, Sister",mewithoutYou,2006-09-26,album,43,"Indie Rock, Post-Hardcore"
+3442,Brother  Sister,mewithoutYou,2006-09-26,album,43,"Indie Rock, Post-Hardcore"
 3443,Starspawn,Blood Incantation,2016-08-19,album,30,Death Metal
 3444,The Great Adventures of Slick Rick,Slick Rick,1988-12-06,album,68,East Coast Hip Hop
 3445,Below the Lights,Enslaved,2003-04-28,album,36,"Progressive Metal, Black Metal"
@@ -3513,7 +3513,7 @@
 3513,My Everything,Ariana Grande,2014-08-25,album,27,"Contemporary R&B, Pop"
 3514,Take As Needed for Pain,Eyehategod,1993-09-09,album,49,Sludge Metal
 3515,Relaxin' With the Miles Davis Quintet,Miles Davis Quintet,1958-03-01,album,31,Hard Bop
-3516,"If I Could Do It All Over Again, I'd Do It All Over You",Caravan,1970-09-04,album,76,"Canterbury Scene, Progressive Rock"
+3516,If I Could Do It All Over Again  I'd Do It All Over You,Caravan,1970-09-04,album,76,"Canterbury Scene, Progressive Rock"
 3517,Written in Waters,Ved Buens Ende.....,1995-10-01,album,51,"Avant-Garde Metal, Progressive Metal"
 3518,Dandelion Gum,Black Moth Super Rainbow,2007-05-22,album,36,"Neo-Psychedelia, Psychedelic Pop, Indietronica"
 3519,Post Pop Depression,Iggy Pop,2016-03-18,album,39,Alternative Rock
@@ -3624,7 +3624,7 @@
 3624,Second Toughest in the Infants,Underworld,1996-03-04,album,43,Techno
 3625,Swing Lo Magellan,Dirty Projectors,2012-07-10,album,49,"Art Pop, Indie Pop, Progressive Pop"
 3626,Transgender Dysphoria Blues,Against Me!,2014-01-21,album,51,Punk Rock
-3627,"If I Can't Have Love, I Want Power",Halsey,2021-08-27,album,43,"Art Pop, Alternative Rock, Electronic"
+3627,If I Can't Have Love  I Want Power,Halsey,2021-08-27,album,43,"Art Pop, Alternative Rock, Electronic"
 3628,Deadringer,RJD2,2002-07-23,album,49,Instrumental Hip Hop
 3629,Women and Children First,Van Halen,1980-03-26,album,80,Hard Rock
 3630,Blonder Tongue Audio Baton,Swirlies,1993-03-26,album,33,"Noise Pop, Indie Rock, Shoegaze"
@@ -3642,7 +3642,7 @@
 3642,...Baby One More Time,Britney Spears,1999-01-12,album,38,"Teen Pop, Dance-Pop"
 3643,The Air Force,Xiu Xiu,2006-09-12,album,14,"Art Pop, Experimental Rock"
 3644,Dr. Feelgood,Mötley Crüe,1989-09-01,album,88,"Glam Metal, Hard Rock"
-3645,"The Good, the Bad & the Queen","The Good, the Bad & the Queen",2007-01-22,album,76,"Indie Rock, Art Rock"
+3645,The Good  the Bad & the Queen,The Good  the Bad & the Queen,2007-01-22,album,76,"Indie Rock, Art Rock"
 3646,The Who by Numbers,The Who,1975-10-18,album,103,"Hard Rock, Rock"
 3647,Legends Never Die,Juice WRLD,2020-07-10,album,25,"Trap, Emo Rap"
 3648,If You Can Believe Your Eyes and Ears,The Mama's and The Papa's,1966-02-01,album,77,"Sunshine Pop, Pop Rock"
@@ -3663,7 +3663,7 @@
 3663,The Serpent & the Sphere,Agalloch,2014-05-13,album,52,"Atmospheric Black Metal, Post-Metal"
 3664,Up on the Sun,Meat Puppets,1985-03-01,album,43,"Cowpunk, Alternative Rock"
 3665,Am I a Girl?,Poppy,2018-10-31,album,21,"Electropop, Dance-Pop"
-3666,"Here, My Dear",Marvin Gaye,1978-12-15,album,69,Smooth Soul
+3666,Here  My Dear,Marvin Gaye,1978-12-15,album,69,Smooth Soul
 3667,Blue Afternoon,Tim Buckley,1969-11-24,album,52,"Singer-Songwriter, Psychedelic Folk"
 3668,Sail Away,Randy Newman,1972-05-01,album,71,"Singer-Songwriter, Piano Rock"
 3669,Yellow Magic Orchestra,Yellow Magic Orchestra,1978-11-25,album,20,Synthpop
@@ -3711,7 +3711,7 @@
 3711,Dead Cities,The Future Sound of London,1996-10-29,album,46,"IDM, Ambient Techno"
 3712,歳時記 (Saijiki),3776,2019-08-28,album,29,"Progressive Pop, Art Pop"
 3713,Mind Games,John Lennon,1973-10-29,album,83,Pop Rock
-3714,"There Is a Hell, Believe Me I've Seen It. There Is a Heaven, Let's Keep It a Secret",Bring Me the Horizon,2010-10-05,album,43,"Metalcore, Post-Hardcore"
+3714,There Is a Hell  Believe Me I've Seen It. There Is a Heaven  Let's Keep It a Secret,Bring Me the Horizon,2010-10-05,album,43,"Metalcore, Post-Hardcore"
 3715,Dark Comedy,Open Mike Eagle,2014-06-10,album,17,"Abstract Hip Hop, West Coast Hip Hop"
 3716,New Energy,Four Tet,2017-09-29,album,19,"Microhouse, Ambient House"
 3717,One Time for All Time,65daysofstatic,2005-10-24,album,40,"Post-Rock, Math Rock"
@@ -3722,7 +3722,7 @@
 3722,You Can't Hide Your Love Forever,Orange Juice,1982-02-01,album,52,"Jangle Pop, Indie Pop"
 3723,High Off Life,Future,2020-05-15,album,22,"Trap, Southern Hip Hop"
 3724,Shabrang,Sevdaliza,2020-08-28,album,17,Art Pop
-3725,"Wednesday Morning, 3 AM",Simon & Garfunkel,1964-10-19,album,67,"Folk Pop, Contemporary Folk"
+3725,Wednesday Morning  3 AM,Simon & Garfunkel,1964-10-19,album,67,"Folk Pop, Contemporary Folk"
 3726,Hold Your Fire,Rush,1987-09-08,album,82,"Pop Rock, Progressive Rock"
 3727,The Predator,Ice Cube,1992-11-17,album,58,"West Coast Hip Hop, Gangsta Rap, Political Hip Hop"
 3728,Liebe ist für alle da,Rammstein,2009-10-16,album,46,"Neue Deutsche Härte, Industrial Metal"
@@ -3758,7 +3758,7 @@
 3758,Morbid Visions,Sepultura,1986-11-10,album,59,"Thrash Metal, Death Metal"
 3759,Scheherazade and Other Stories,Renaissance,1975-07-01,album,63,Symphonic Prog
 3760,Music for Films,Brian Eno,1978-09-01,album,51,Ambient
-3761,"High Land, Hard Rain",Aztec Camera,1983-02-01,album,72,"Jangle Pop, New Wave"
+3761,High Land  Hard Rain,Aztec Camera,1983-02-01,album,72,"Jangle Pop, New Wave"
 3762,Red Headed Stranger,Willie Nelson,1975-05-01,album,58,Outlaw Country
 3763,The Ugly Organ,Cursive,2003-03-04,album,63,"Indie Rock, Post-Hardcore, Emo"
 3764,Quiet Signs,Jessica Pratt,2019-02-08,album,28,"Contemporary Folk, Singer-Songwriter"
@@ -3772,7 +3772,7 @@
 3772,Los ángeles,Rosalía,2017-02-10,album,21,Flamenconuevo
 3773,I Want You,Marvin Gaye,1976-03-16,album,48,Smooth Soul
 3774,Zoot Allures,Zappa,1976-10-29,album,77,"Jazz-Rock, Art Rock"
-3775,"Traveling Wilburys, Vol. 1",Traveling Wilburys,1988-10-18,album,109,Pop Rock
+3775,Traveling Wilburys  Vol. 1,Traveling Wilburys,1988-10-18,album,109,Pop Rock
 3776,Fade,Yo La Tengo,2013-01-15,album,66,Indie Rock
 3777,Oncle Jazz,Men I Trust,2019-09-13,album,28,"Sophisti-Pop, Bedroom Pop"
 3778,As the Roots Undo,Circle Takes the Square,2004-01-06,album,36,"Screamo, Post-Hardcore"
@@ -3802,7 +3802,7 @@
 3802,Suspiria (Music for the Luca Guadagnino Film),Thom Yorke,2018-10-26,album,22,"Film Score, Ambient"
 3803,Daily Operation,Gang Starr,1992-05-05,album,55,"East Coast Hip Hop, Conscious Hip Hop, Boom Bap"
 3804,Carrion Crawler / The Dream EP,Thee Oh Sees,2011-11-08,album,35,"Garage Punk, Psychedelic Rock"
-3805,"In My Lifetime, Vol. 1",Jay-Z,1997-11-04,album,52,"East Coast Hip Hop, Boom Bap"
+3805,In My Lifetime  Vol. 1,Jay-Z,1997-11-04,album,52,"East Coast Hip Hop, Boom Bap"
 3806,Sonic Highways,Foo Fighters,2014-11-10,album,44,Alternative Rock
 3807,Inhuman Rampage,DragonForce,2006-01-09,album,128,Power Metal
 3808,The Furnaces of Palingenesia,Deathspell Omega,2019-05-24,album,26,Black Metal
@@ -3825,7 +3825,7 @@
 3825,Century Child,Nightwish,2002-05-24,album,64,"Symphonic Metal, Power Metal"
 3826,Wretch,Kyuss,1991-09-23,album,45,"Stoner Rock, Stoner Metal"
 3827,Against the Grain,Bad Religion,1990-11-23,album,51,"Melodic Hardcore, Skate Punk, Punk Rock"
-3828,"HIStory: Past, Present and Future - Book I",Michael Jackson,1995-07-15,album,79,"Pop, Contemporary R&B"
+3828,HIStory: Past  Present and Future - Book I,Michael Jackson,1995-07-15,album,79,"Pop, Contemporary R&B"
 3829,Le sacre du printemps,New York Philharmonic / Leonard Bernstein,1958-01-01,album,24,"Modern Classical, Orchestral"
 3830,This Godless Endeavor,Nevermore,2005-07-26,album,66,"Thrash Metal, Progressive Metal"
 3831,Grievous Angel,Gram Parsons,1974-01-01,album,69,"Country Rock, Singer-Songwriter, Country"
@@ -3843,7 +3843,7 @@
 3843,Elements,Atheist,1993-08-30,album,63,"Technical Death Metal, Progressive Metal"
 3844,How to Be a Human Being,Glass Animals,2016-08-26,album,29,"Indietronica, Alt-Pop"
 3845,Broken Bells,Broken Bells,2010-03-08,album,69,Indie Pop
-3846,"Audio, Video, Disco",Justice,2011-10-25,album,49,"Electro House, Progressive Rock"
+3846,Audio  Video  Disco,Justice,2011-10-25,album,49,"Electro House, Progressive Rock"
 3847,Freudian,Daniel Caesar,2017-08-25,album,24,Contemporary R&B
 3848,The Comforts of Madness,Pale Saints,1990-02-12,album,46,"Dream Pop, Shoegaze, Neo-Psychedelia"
 3849,Riot on an Empty Street,Kings of Convenience,2004-07-27,album,39,"Folk Pop, Indie Pop, Indie Folk"
@@ -3862,7 +3862,7 @@
 3862,Somewhere City,Origami Angel,2019-11-15,album,23,"Midwest Emo, Emo-Pop"
 3863,...and Again Into the Light,Panopticon,2021-05-15,album,23,Atmospheric Black Metal
 3864,The White Birch,Codeine,1994-04-04,album,40,Slowcore
-3865,"Dear God, I Hate Myself",Xiu Xiu,2010-02-23,album,29,"Art Pop, Glitch Pop"
+3865,Dear God  I Hate Myself,Xiu Xiu,2010-02-23,album,29,"Art Pop, Glitch Pop"
 3866,Screen Violence,CHVRCHES,2021-08-27,album,30,Synthpop
 3867,Butchered at Birth,Cannibal Corpse,1991-07-01,album,46,Death Metal
 3868,The Trials of Van Occupanther,Midlake,2006-06-05,album,101,"Folk Rock, Indie Folk"
@@ -3895,7 +3895,7 @@
 3895,Unit Structures,Cecil Taylor,1966-10-01,album,54,Free Jazz
 3896,The Work Which Transforms God,Blut aus Nord,2003-03-17,album,45,"Black Metal, Atmospheric Black Metal"
 3897,Froot,Marina and the Diamonds,2015-03-13,album,15,"Synthpop, Electropop"
-3898,"Shoot for the Stars, Aim for the Moon",Pop Smoke,2020-07-03,album,23,"Trap, Pop Rap, East Coast Hip Hop"
+3898,Shoot for the Stars  Aim for the Moon,Pop Smoke,2020-07-03,album,23,"Trap, Pop Rap, East Coast Hip Hop"
 3899,1983,Flying Lotus,2006-10-03,album,20,"Wonky, Instrumental Hip Hop"
 3900,Monomania,Car Seat Headrest,2012-08-01,album,21,"Lo-Fi/Slacker Rock, Singer-Songwriter"
 3901,We Are Sent Here by History,Shabaka and The Ancestors,2020-03-13,album,24,"Afro-Jazz, Spiritual Jazz"
@@ -4103,7 +4103,7 @@
 4103,Bl_ck B_st_rds,KMD,2000-01-01,album,25,"East Coast Hip Hop, Boom Bap"
 4104,Obsidian,Baths,2013-05-28,album,33,"Glitch Pop, Indietronica"
 4105,This Is the Sea,The Waterboys,1985-09-16,album,71,"Pop Rock, Folk Rock"
-4106,"It's Not Me, It's You",Lily Allen,2009-02-04,album,74,"Pop, Synthpop"
+4106,It's Not Me  It's You,Lily Allen,2009-02-04,album,74,"Pop, Synthpop"
 4107,Forgiveness Rock Record,Broken Social Scene,2010-05-04,album,64,Indie Rock
 4108,The End...,Nico,1974-11-11,album,34,Avant-Folk
 4109,Cypress Hill,Cypress Hill,1991-08-13,album,65,"West Coast Hip Hop, Gangsta Rap"
@@ -4425,9 +4425,9 @@
 4425,Crown of Creation,Jefferson Airplane,1968-09-01,album,70,"Acid Rock, Psychedelic Rock"
 4426,Control,Janet Jackson,1986-02-04,album,44,"Contemporary R&B, Dance-Pop"
 4427,Love and Affection for Stupid Little Bitches,Black Dresses,2019-08-01,album,15,"Electro-Industrial, Electropop"
-4428,"The Rolling Stones, Now!",The Rolling Stones,1965-02-13,album,49,"British Rhythm & Blues, Blues Rock"
+4428,The Rolling Stones  Now!,The Rolling Stones,1965-02-13,album,49,"British Rhythm & Blues, Blues Rock"
 4429,Cruising With Ruben & The Jets,The Mothers of Invention,1968-11-01,album,76,Doo-Wop
-4430,"Take Care, Take Care, Take Care",Explosions in the Sky,2011-04-26,album,42,Post-Rock
+4430,Take Care  Take Care  Take Care,Explosions in the Sky,2011-04-26,album,42,Post-Rock
 4431,The Black Halo,Kamelot,2005-03-14,album,54,"Power Metal, Rock Opera"
 4432,Minecraft: Volume Beta,C418,2013-11-09,album,25,"Ambient, Video Game Music, Electronic"
 4433,Dressed to Kill,KISS,1975-03-19,album,89,"Hard Rock, Glam Rock"
@@ -4509,7 +4509,7 @@
 4509,The Big Come Up,The Black Keys,2002-05-14,album,43,"Blues Rock, Garage Rock"
 4510,Maaäet,Tenhi,2006-02-10,album,29,Dark Folk
 4511,Голос сталі,Nokturnal Mortum,2009-12-26,album,48,"Folk Metal, Pagan Black Metal"
-4512,"Anime, Trauma and Divorce",Open Mike Eagle,2020-10-16,album,21,Abstract Hip Hop
+4512,Anime  Trauma and Divorce,Open Mike Eagle,2020-10-16,album,21,Abstract Hip Hop
 4513,Uprising,Bob Marley & The WailersBob MarleyThe Wailers,1980-07-10,album,38,Roots Reggae
 4514,Revenge of the Dreamers III,Dreamville,2019-07-05,album,23,Hip Hop
 4515,Deluxe,Harmonia,1975-08-20,album,47,"Krautrock, Electronic"
@@ -4549,7 +4549,7 @@
 4549,Bad Vibes Forever,XXXTentacion,2019-12-06,album,30,Singer-Songwriter
 4550,Half-Mute,Tuxedomoon,1980-03-15,album,31,"Post-Punk, Experimental Rock"
 4551,1992 Deluxe,Princess Nokia,2017-09-08,album,6,"East Coast Hip Hop, Trap"
-4552,"Too Weird to Live, Too Rare to Die!",Panic! at the Disco,2013-10-08,album,19,"Pop Rock, Electropop"
+4552,Too Weird to Live  Too Rare to Die!,Panic! at the Disco,2013-10-08,album,19,"Pop Rock, Electropop"
 4553,Historian,Lucy Dacus,2018-03-02,album,28,"Indie Rock, Singer-Songwriter"
 4554,Hit to Death in the Future Head,The Flaming Lips,1992-08-11,album,57,"Noise Pop, Noise Rock, Alternative Rock, Neo-Psychedelia"
 4555,Vanishing Point,Primal Scream,1997-07-07,album,50,"Alternative Dance, Alternative Rock"
@@ -4563,7 +4563,7 @@
 4563,Trust,Low,2002-10-21,album,37,Slowcore
 4564,Septembre et ses dernières pensées,Les Discrets,2010-03-29,album,28,"Shoegaze, Post-Metal"
 4565,Friend Opportunity,Deerhoof,2007-01-23,album,61,"Indie Rock, Noise Pop"
-4566,"Right Thoughts, Right Words, Right Action",Franz Ferdinand,2013-08-26,album,48,"Post-Punk Revival, Indie Rock"
+4566,Right Thoughts  Right Words  Right Action,Franz Ferdinand,2013-08-26,album,48,"Post-Punk Revival, Indie Rock"
 4567,Blinking Lights and Other Revelations,Eels,2005-04-25,album,78,"Singer-Songwriter, Indie Pop"
 4568,Please Excuse Me for Being Antisocial,Roddy Ricch,2019-12-06,album,15,"Trap, Pop Rap, West Coast Hip Hop"
 4569,One-X,Three Days Grace,2006-06-13,album,50,"Post-Grunge, Alternative Rock"
@@ -4585,7 +4585,7 @@
 4585,Blind Melon,Blind Melon,1992-09-22,album,75,Alternative Rock
 4586,Big Calm,Morcheeba,1998-03-16,album,43,Trip Hop
 4587,Kinda Kinks,The Kinks,1965-03-05,album,72,"Garage Rock, Pop Rock, Mod"
-4588,"Never, Neverland",Annihilator,1990-09-12,album,48,"Thrash Metal, Technical Thrash Metal"
+4588,Never  Neverland,Annihilator,1990-09-12,album,48,"Thrash Metal, Technical Thrash Metal"
 4589,I Loved You at Your Darkest,Behemoth,2018-10-05,album,13,"Black Metal, Death Metal"
 4590,Bad Reputation,Thin Lizzy,1977-09-02,album,61,Hard Rock
 4591,New Amerykah Part One: 4th World War,Erykah Badu,2008-02-26,album,66,Neo-Soul
@@ -4622,7 +4622,7 @@
 4622,Ringleader of the Tormentors,Morrissey,2006-04-03,album,59,"Alternative Rock, Pop Rock"
 4623,A Christmas Gift for You From Philles Records,Various Artists,1963-11-22,album,64,"Christmas Music, Brill Building, Girl Group"
 4624,Wolf City,Amon Düül II,1972-11-01,album,52,"Psychedelic Rock, Krautrock"
-4625,"Always Outnumbered, Never Outgunned",The Prodigy,2004-08-23,album,53,Big Beat
+4625,Always Outnumbered  Never Outgunned,The Prodigy,2004-08-23,album,53,Big Beat
 4626,Elect the Dead,Serj Tankian,2007-10-23,album,54,"Alternative Rock, Alternative Metal"
 4627,Tell Me I'm Pretty,Cage the Elephant,2015-12-18,album,13,"Indie Rock, Alternative Rock"
 4628,Dreams,Gabor Szabo,1968-12-01,album,15,"Chamber Jazz, Jazzmanouche"
@@ -4662,7 +4662,7 @@
 4662,Trans,Neil Young,1983-01-10,album,86,Synthpop
 4663,Another Thought,Arthur Russell,1994-07-26,album,23,Art Pop
 4664,New Levels New Devils,Polyphia,2018-10-12,album,26,Math Rock
-4665,"Fantastic, Vol. 2",Slum Village,2000-06-13,album,38,Hip Hop
+4665,Fantastic  Vol. 2,Slum Village,2000-06-13,album,38,Hip Hop
 4666,Nine Types of Light,TV on the Radio,2011-04-12,album,49,"Indie Rock, Art Rock"
 4667,Galaxy Garden,Lone,2012-04-30,album,25,"Acid House, Hardcore Breaks"
 4668,Thelonious Monk With John Coltrane,Thelonious Monk With John Coltrane,1961-10-01,album,28,Hard Bop
@@ -4670,7 +4670,7 @@
 4670,Overpowered,Róisín Murphy,2007-10-15,album,44,"Electropop, Dance-Pop"
 4671,Stone Flower,Antônio Carlos Jobim,1970-07-06,album,33,Bossanova
 4672,The Silent Enigma,Anathema,1995-08-17,album,47,"Death Doom Metal, Doom Metal"
-4673,"Sorry Ma, Forgot to Take Out the Trash",The Replacements,1981-08-25,album,51,"Punk Rock, Hardcore Punk"
+4673,Sorry Ma  Forgot to Take Out the Trash,The Replacements,1981-08-25,album,51,"Punk Rock, Hardcore Punk"
 4674,Unchained,Johnny Cash,1996-11-05,album,40,"Americana, Country"
 4675,In the City,The Jam,1977-05-20,album,49,"Mod Revival, Punk Rock"
 4676,Australasia,Pelican,2003-11-04,album,55,"Atmospheric Sludge Metal, Post-Metal"
@@ -4686,7 +4686,7 @@
 4686,Oops!...I Did It Again,Britney Spears,2000-05-16,album,32,"Teen Pop, Dance-Pop"
 4687,Get Color,HEALTH,2009-09-08,album,26,"Noise Rock, Experimental Rock"
 4688,Street Worms,Viagra Boys,2018-09-28,album,12,Post-Punk
-4689,"Astro-Creep: 2000 - Songs of Love, Destruction and Other Synthetic Delusions of the Electric Head",White Zombie,1995-04-11,album,67,"Groove Metal, Industrial Metal"
+4689,Astro-Creep: 2000 - Songs of Love  Destruction and Other Synthetic Delusions of the Electric Head,White Zombie,1995-04-11,album,67,"Groove Metal, Industrial Metal"
 4690,Elegy,Amorphis,1996-05-14,album,56,"Progressive Metal, Melodic Death Metal"
 4691,Comfort Eagle,Cake,2001-07-24,album,50,Alternative Rock
 4692,Does This Look Infected?,Sum 41,2002-11-26,album,32,"Pop Punk, Skate Punk"
@@ -4759,7 +4759,7 @@
 4759,A Diabolic Thirst,Spectral Wound,2021-04-16,album,11,Black Metal
 4760,For Alto,Anthony Braxton,1970-01-01,album,38,"Free Improvisation, Modern Creative, Free Jazz"
 4761,1916,Motörhead,1991-02-02,album,47,"Heavy Metal, Hard Rock"
-4762,"...Burn, Piano Island, Burn",The Blood Brothers,2003-03-18,album,52,"Post-Hardcore, Sasscore"
+4762,...Burn  Piano Island  Burn,The Blood Brothers,2003-03-18,album,52,"Post-Hardcore, Sasscore"
 4763,Death Cult Armageddon,Dimmu Borgir,2003-09-08,album,64,Symphonic Black Metal
 4764,M A N I A,Fall Out Boy,2018-01-19,album,42,Electropop
 4765,Pray for the Wicked,Panic! at the Disco,2018-06-22,album,31,Electropop
@@ -4869,7 +4869,7 @@
 4869,Chrome,Catherine Wheel,1993-07-20,album,60,"Shoegaze, Alternative Rock"
 4870,Eyes Like the Sky,King Gizzard and The Lizard Wizard,2013-02-22,album,21,"Spoken Word, Spaghetti Western, Garage Rock"
 4871,Vol. 3... Life and Times of S. Carter,Jay-Z,1999-12-28,album,51,East Coast Hip Hop
-4872,"Eat Me, Drink Me",Marilyn Manson,2007-06-04,album,64,"Alternative Rock, Industrial Rock"
+4872,Eat Me  Drink Me,Marilyn Manson,2007-06-04,album,64,"Alternative Rock, Industrial Rock"
 4873,I Got Dem Ol' Kozmic Blues Again Mama!,Janis Joplin,1969-09-01,album,36,Blues Rock
 4874,Thursday Afternoon,Brian Eno,1985-10-01,album,51,Ambient
 4875,Character,Dark Tranquillity,2005-01-19,album,49,Melodic Death Metal
@@ -4942,7 +4942,7 @@
 4942,No Angel,Dido,1999-06-01,album,82,"Pop, Downtempo"
 4943,Dust,Laurel Halo,2017-06-23,album,14,"Art Pop, Electronic, Ambient Pop, Experimental"
 4944,Heartbeat City,The Cars,1984-03-13,album,74,"New Wave, Pop Rock"
-4945,"""This Is Our Punk-Rock,"" Thee Rusted Satellites Gather + Sing,",The Silver Mt. Zion Memorial Orchestra & Tra-La-La Band With Choir,2003-08-25,album,33,"Post-Rock, Chamber Folk"
+4945,"""This Is Our Punk-Rock "" Thee Rusted Satellites Gather + Sing ",The Silver Mt. Zion Memorial Orchestra & Tra-La-La Band With Choir,2003-08-25,album,33,"Post-Rock, Chamber Folk"
 4946,Scissor Sisters,Scissor Sisters,2004-02-02,album,76,"Dance-Pop, Pop Rock"
 4947,Death to False Metal,Weezer,2010-11-02,album,38,"Power Pop, Alternative Rock"
 4948,Everything Else Matters,Pinkshinyultrablast,2015-01-26,album,33,Shoegaze
@@ -4983,7 +4983,7 @@
 4983,Gothic,Paradise Lost,1991-04-01,album,25,Death Doom Metal
 4984,Efil4zaggin,N.W.A,1991-05-30,album,73,"West Coast Hip Hop, Gangsta Rap"
 4985,Ultravisitor,Squarepusher,2004-03-08,album,43,"Drilland Bass, IDM"
-4986,"Retired From Sad, New Career in Business",Mitski,2013-08-01,album,10,"Chamber Pop, Singer-Songwriter, Art Pop"
+4986,Retired From Sad  New Career in Business,Mitski,2013-08-01,album,10,"Chamber Pop, Singer-Songwriter, Art Pop"
 4987,My Krazy Life,YG,2014-03-18,album,28,"Gangsta Rap, West Coast Hip Hop, Ratchet Music"
 4988,Doopee Time,Doopees,1995-10-20,album,33,Art Pop
 4989,Indestructible,Disturbed,2008-06-03,album,51,"Alternative Metal, Hard Rock"
@@ -4998,4 +4998,3 @@
 4998,Dangerous Days,Perturbator,2014-06-17,album,21,"Darksynth, Horror Synth, Synthwave"
 4999,Third Ear Band,Third Ear Band,1970-06-01,album,39,"Progressive Folk, Free Folk"
 5000,The Album,ABBA,1977-12-12,album,51,"Pop, Progressive Pop"
-FIM

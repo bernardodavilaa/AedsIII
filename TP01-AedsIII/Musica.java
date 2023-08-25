@@ -1,3 +1,7 @@
+import java.io.ByteArrayOutputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.nio.charset.Charset;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -12,7 +16,7 @@ class Musica{
     private String release_name;
     private Date release_date;
     private String release_type;
-    private String[] genres= new String[20];
+    private String[] genres;
     private int tamanho_genero;
     private int review_count;
 
@@ -34,6 +38,7 @@ class Musica{
     public String getReleaseType(){return this.release_type;}
     public int getReviewCount(){return review_count;}
     public String[] getGenres(){return genres;}
+    public long getCreatedAt() { return release_date.getTime(); }
 
     Musica(){
         setLapide(true);
@@ -98,6 +103,31 @@ class Musica{
         setReviewCount(Integer.parseInt(dados[5]));
         genres = dados[6].split(",");
     }
+
+
+    public byte[] toByteArray() throws IOException{
+        ByteArrayOutputStream bOutput = new ByteArrayOutputStream();
+        DataOutputStream bData = new DataOutputStream(bOutput);
+
+        bData.writeBoolean(this.lapide);
+        bData.writeInt(getId());
+        bData.writeInt(artist_name.getBytes(Charset.forName("UTF-8")).length);
+        bData.writeUTF(artist_name);
+        bData.writeInt(release_name.getBytes(Charset.forName("UTF-8")).length);
+        bData.writeUTF(release_name);
+        bData.writeLong(getCreatedAt());
+        bData.writeInt(release_type.getBytes(Charset.forName("UTF-8")).length);
+        bData.writeUTF(release_type);
+        bData.writeInt(genres.length);
+        for(int i=0;i<genres.length;i++){
+            bData.writeInt(genres[i].getBytes(Charset.forName("UTF-8")).length);
+            bData.writeUTF(genres[i]);
+        }
+
+        return bOutput.toByteArray();
+    }
+
+    // -------------------------------------------------------------------------------------- //
 
     
     
