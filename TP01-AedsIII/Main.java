@@ -2,7 +2,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
-import javax.sql.rowset.spi.SyncResolver;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -19,8 +18,5 @@ public class Main {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        String deucerto = sc.nextLine();
-        System.out.println("Deu Certo?");
     }
-
 }
