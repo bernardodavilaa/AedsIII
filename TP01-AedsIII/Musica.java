@@ -16,8 +16,7 @@ class Musica{
     private String release_name;
     private Date release_date;
     private String release_type;
-    private String[] genres;
-    private int tamanho_genero;
+    private ArrayList<String> genres;
     private int review_count;
 
     public void setLapide(boolean lapide){ this.lapide=lapide;}
@@ -27,7 +26,7 @@ class Musica{
     public void setDate(Date release_date) { this.release_date = release_date; }
     public void setReleaseType(String release_type) { this.release_type = release_type; }
     public void setReviewCount(int review_count) { this.review_count = review_count; }
-    public void setGenres(String genero) { genres[tamanho_genero]=genero;  }
+    public void setGenres(ArrayList<String> genres) { this.genres = genres; }
 
 
     public boolean getLapide(){return this.lapide;}
@@ -37,7 +36,7 @@ class Musica{
     public Date getReleaseData(){return this.release_date;}
     public String getReleaseType(){return this.release_type;}
     public int getReviewCount(){return review_count;}
-    public String[] getGenres(){return genres;}
+    public ArrayList<String> getGenres() { return this.genres; }
     public long getCreatedAt() { return release_date.getTime(); }
 
     Musica(){
@@ -54,7 +53,7 @@ class Musica{
         }
         setReleaseType("album");
         setReviewCount(0);
-        setGenres("pagode dos crias");
+        this.genres = new ArrayList<String>();
     }
 
 
@@ -101,7 +100,10 @@ class Musica{
         }
         setReleaseType(dados[4]);
         setReviewCount(Integer.parseInt(dados[5]));
-        genres = dados[6].split(",");
+        String[] generos = dados[6].split(",");
+        this.genres = new ArrayList<String>(generos.length);
+        for(int i=0;i<generos.length;i++)
+        genres.add(generos[i]);
     }
 
 
@@ -118,10 +120,11 @@ class Musica{
         bData.writeLong(getCreatedAt());
         bData.writeInt(release_type.getBytes(Charset.forName("UTF-8")).length);
         bData.writeUTF(release_type);
-        bData.writeInt(genres.length);
-        for(int i=0;i<genres.length;i++){
-            bData.writeInt(genres[i].getBytes(Charset.forName("UTF-8")).length);
-            bData.writeUTF(genres[i]);
+        bData.writeInt(getReviewCount());
+        bData.writeInt(genres.size());
+        for(String generos : genres){
+            bData.writeInt(generos.getBytes(Charset.forName("UTF-8")).length);
+            bData.writeUTF(generos);
         }
 
         return bOutput.toByteArray();
@@ -129,6 +132,9 @@ class Musica{
 
     // -------------------------------------------------------------------------------------- //
 
-    
+    public Date transformaLongDate(long getTime){
+        Date date = new Date(getTime);
+        return date;
+    }
     
 }
