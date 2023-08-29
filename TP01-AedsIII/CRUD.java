@@ -1,6 +1,9 @@
 import java.io.IOException;
 import java.io.RandomAccessFile;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 public class CRUD {
     private RandomAccessFile file;
@@ -32,6 +35,41 @@ public class CRUD {
     public void create(Musica m) throws IOException{
         create(file, m);
     }
+
+    public Boolean Pesquisar(int entradaID) throws IOException{
+        long pos;
+        int qntBytesInic, id;
+        boolean lap;
+
+        file.seek(0);
+        file.readInt();// pula o ID do registro, pois o mesmo ID será lido mais para frente
+        try{
+        while(file.getFilePointer() < file.length()){
+            pos = file.getFilePointer(); // Pega a posição do ponteiro no momento atual(está apontando para a quantidade de bytes no registo).
+            qntBytesInic = file.readInt(); // Pega o tamanho do registo que será selecionado
+            lap = file.readBoolean(); // Armazena o valor da lápide do registro Game específico
+            id = file.readInt(); // Armazena o ID do registro Game específico
+            if(id == entradaID){ // Verifica se o id é o mesmo que o selecionado
+                if(lap){ // Verifica se a lápide é válida, ou seja, se o registro foi apagado ou não
+                    return false;                 
+                }
+                else{
+                    file.skipBytes(qntBytesInic - 5); // Pula para o próximo registro
+                }
+            }
+            else{
+                file.skipBytes(qntBytesInic - 5); // Pula para o próximo registro
+            }
+        }
+    }catch (IOException e){
+        e.printStackTrace();
+    }
+
+    return true;
+    }
+
+        // ------------------------------------ //
+
 
 
     public Musica Read(int entradaID) throws IOException{
@@ -73,6 +111,85 @@ public class CRUD {
     return musLida;
     }
 
+
+    // ------------------------------------ //
+
+
+    public Musica Delete(int entradaID) throws IOException{
+        long pos;
+        int qntBytesInic, id;
+        Musica musLida = null;
+        boolean lap;
+
+        file.seek(0);
+        file.readInt();// pula o ID do registro, pois o mesmo ID será lido mais para frente
+        try{
+        while(file.getFilePointer() < file.length()){
+            pos = file.getFilePointer(); // Pega a posição do ponteiro no momento atual(está apontando para a quantidade de bytes no registo).
+            qntBytesInic = file.readInt(); // Pega o tamanho do registo que será selecionado
+            lap = file.readBoolean(); // Armazena o valor da lápide do registro Game específico
+            id = file.readInt(); // Armazena o ID do registro Game específico
+            if(id == entradaID){ // Verifica se o id é o mesmo que o selecionado
+                if(lap){ // Verifica se a lápide é válida, ou seja, se o registro foi apagado ou não
+                    try{
+                        file.seek(pos); // Volta para começo do registro
+                        file.readInt(); // Pula primeira parte do registro
+                        file.writeBoolean(false); // Acessa posição da lápide e deixa ela falsa
+                        break;
+                    }catch (Exception e){
+                        e.printStackTrace();
+                    }                    
+                }
+                else{
+                    file.skipBytes(qntBytesInic - 5); // Pula para o próximo registro
+                }
+            }
+            else{
+                file.skipBytes(qntBytesInic - 5); // Pula para o próximo registro
+            }
+        }
+    }catch (IOException e){
+        e.printStackTrace();
+        musLida = null;
+    }
+
+    return musLida;
+    }
+
+    // ------------------------------------ //
+
+    public void Update(int readID, int novoID, String novoArtistName,String novaData,String novoReleaseType,int novoReviewsCount,String[] novoGenero) throws IOException, ParseException{
+        ArrayList<String> arrayUpdate = new ArrayList<String>();
+                        for(int i=0;i<novoGenero.length;i++){
+                            arrayUpdate.add(novoGenero[i]);
+                        }
+        SimpleDateFormat formato = new SimpleDateFormat("yyyy-MM-dd");
+         Date data= formato.parse(novaData);
+        Musica musTemp = new Musica(novoID, novoArtistName, data, novoReleaseType, novoReviewsCount, arrayUpdate); 
+        file.seek(0);
+        file.writeInt(musTemp.getId());
+        file.seek(file.length());
+        byte[] byteArray = musTemp.toByteArray();
+        file.writeInt(musTemp.toByteArray().length);
+        file.write(byteArray);
+    }
+    // ------------------------------------ //
+
+    public void Create(int readID, String novoArtistName,String novaData,String novoReleaseType,int novoReviewsCount,String[] novoGenero) throws IOException, ParseException{
+        ArrayList<String> arrayUpdate = new ArrayList<String>();
+                        for(int i=0;i<novoGenero.length;i++){
+                            arrayUpdate.add(novoGenero[i]);
+                        }
+        SimpleDateFormat df = new SimpleDateFormat("dd/MM/yyyy");
+        Date data = df.parse(novaData);
+        Musica musTemp = new Musica(readID, novoArtistName, data, novoReleaseType, novoReviewsCount, arrayUpdate); 
+        file.seek(0);
+        file.writeInt(musTemp.getId());
+        file.seek(file.length());
+        byte[] byteArray = musTemp.toByteArray();
+        file.writeInt(musTemp.toByteArray().length);
+        file.write(byteArray);
+    }
     // ------------------------------------ //
 
 

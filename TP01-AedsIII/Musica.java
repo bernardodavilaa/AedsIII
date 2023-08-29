@@ -56,6 +56,15 @@ class Musica{
         this.genres = new ArrayList<String>();
     }
 
+    Musica(int novoID, String novoArtistName, Date data, String novoReleaseType,int novoReviewsCount,  ArrayList<String> generos){
+        this.id= novoID;
+        this.artist_name=novoArtistName;
+        this.release_date= data;
+        this.release_type=novoReleaseType;
+        this.review_count= novoReviewsCount;
+        this.genres= generos;
+    }
+
 
 
     Musica(String dados){
