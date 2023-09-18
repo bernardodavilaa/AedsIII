@@ -20,6 +20,24 @@ public class CRUD {
 
     // ------------------------------------ //
 
+
+    public long getPos(RandomAccessFile file, Musica mus) throws IOException{
+        file.seek(0); // Ponteiro vai para o inicio do arquivo
+        file.writeInt(mus.getId()); // Escreve no inicio do registro o seu ID
+        file.seek(file.length()); // Ponteiro vai para o final do arquivo
+        long pos=file.getFilePointer();
+        byte[] byteArr = mus.toByteArray(); // Vetor de Bytes populado com os dados do CSV já filtrados
+        file.writeInt(mus.toByteArray().length); // Escreve o tamanho desse vetor de Bytes
+        file.write(byteArr); // Escreve o vetor de Bytes
+        return pos;
+    }
+
+    public long getPos(Musica mus) throws IOException{
+        return getPos(file, mus);
+    }
+
+
+
     // Primeira injeção do CSV para o banco de dados
 
     public void create(RandomAccessFile file, Musica m) throws IOException{

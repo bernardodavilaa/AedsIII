@@ -7,18 +7,24 @@ class Main {
     public static void main(String[] args) throws IOException {
         Scanner sc= new Scanner(System.in);
         CRUD crud = new CRUD("BancoDados");
+        ArvoreB arv = new ArvoreB(8);
         String csv = "musicas.csv";
-
+        System.out.println("Deseja carregar o arquivo?");
+        System.out.println("1-Sim \n 2-Nao");
+        if(sc.nextInt()==1){
         try (BufferedReader br = new BufferedReader(new FileReader(csv))) {
             String entrada;
             while ((entrada = br.readLine()) != null) {
                 Musica m = new Musica(entrada);
                 crud.create(m);
+                long pos= crud.getPos(m);
+                arv.insere(m.getId(),pos);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
-        int opcao=0;
+    }
+    int opcao=0;
     while(opcao!=5){
         System.out.println("Escolha uma operação: ");
         System.out.println("1- Create");
@@ -145,13 +151,7 @@ class Main {
             System.out.println("");
             }
             else{
-                try{
-                    crud.Read(novoID).getLapide();
-                    System.out.println("ID já existente.");
-                }
-                catch(Exception e){
-                    System.out.println("ID não existente");
-                }
+                System.out.println("ID já cadastrado");
             }
         }catch(Exception e){
             System.out.println("Erro ao Atualizar o arquivo.");
