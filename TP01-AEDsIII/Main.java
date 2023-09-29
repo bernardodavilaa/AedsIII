@@ -9,7 +9,7 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) throws IOException {
         Scanner sc= new Scanner(System.in);
-        CRUD crud = new CRUD("BancoDados");
+        CRUD crud = new CRUD("BancoDados.db");
         ArvoreB arv = new ArvoreB(8);
         HashExtensivel hash= new HashExtensivel(1);
         // Criar lista invertida para gêneros
@@ -35,6 +35,7 @@ class Main {
             e.printStackTrace();
         }
     }
+
     int opcao=0;
     
     
@@ -114,7 +115,7 @@ class Main {
         try{
             System.out.println("Digite o ID: ");
             int readID= sc.nextInt();
-            crud.Read(readID).getId(); // Teste para ver se game existe (teste de pointer)
+            crud.Read(readID).getId(); // Teste para ver se musica existe (teste de pointer)
             if(crud.Read(readID).getLapide()){
             System.out.println("\nArquivo encontrado!\n");
             System.out.print("ID: "+ crud.Read(readID).getId() +", Nome Artista: "+ crud.Read(readID).getArtistName() + ", Data de Lançamento: " + crud.Read(readID).getReleaseData()+  ", Nome de Lançamento: "+ crud.Read(readID).getReleaseName()+ ", Tipo de Lançamento: "+ crud.Read(readID).getReleaseType()+", Quantidade de Reviews: "+ crud.Read(readID).getReviewCount()+", ");
@@ -141,6 +142,10 @@ class Main {
         try{
             System.out.println("Infome o ID: ");
             int readID=sc.nextInt();
+            boolean resp=crud.PesquisarID_Apagado(readID);
+            if(resp==false){
+                System.out.println("ID já cadastrado");break;
+            }
             System.out.println("Digite o ID atualizado: ");
             int novoID= sc.nextInt();
             if((crud.Pesquisar(novoID))){
@@ -190,7 +195,7 @@ class Main {
         try{
             System.out.println("Informe o ID: ");
             int readID= sc.nextInt();
-             crud.Read(readID).getId(); // Teste para ver se game existe (teste de pointer)
+             crud.Read(readID).getId(); // Teste para ver se musica existe (teste de pointer)
              if(crud.Read(readID).getLapide()){
             System.out.println("\nArquivo encontrado!\n");
             System.out.print("ID: "+ crud.Read(readID).getId() +", Nome Artista: "+ crud.Read(readID).getArtistName() +  ", Nome de Lançamento: "+ crud.Read(readID).getReleaseName()+ ", Data de Lançamento: " + crud.Read(readID).getReleaseData()+ ", Tipo de Lançamento: "+ crud.Read(readID).getReleaseType()+", Quantidade de Reviews: "+ crud.Read(readID).getReviewCount()+", ");
@@ -235,14 +240,18 @@ while(opcao!=4){
     System.out.println("2- Intercalação Balanceada com Blocos de Tamanho Variável");
     System.out.println("3- Intercalação Balanceada com seleção por Substituição");
     System.out.println("4- Sair");
+    ArvoreB I= arv;I.imprimir();
     opcao = sc.nextInt();
     
     switch(opcao){
 
         case 1:
+        IntercalacaoSimples i= new IntercalacaoSimples();
+        System.out.println("Arquivo Ordenado com Intercalação Balanceada Comum!");
         break;
 
         case 2:
+
         break;
 
         case 3:
@@ -250,7 +259,6 @@ while(opcao!=4){
 
         case 4:
         break;
-
 
 
     }

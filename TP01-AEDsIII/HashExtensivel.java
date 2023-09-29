@@ -8,11 +8,13 @@ public class HashExtensivel {
 
     private Map<Integer, Bucket> buckets;  // Mapa de baldes
     private int depth;                     // Profundidade global
-    private RandomAccessFile arqHash;
+    private RandomAccessFile arqHash, arqOrdenado;
+    private ArvoreB arv;
 
     // Construtor
     public HashExtensivel(int depth) throws IOException {
         arqHash = new RandomAccessFile("arqHash", "rw");
+        arqOrdenado= new RandomAccessFile("BancoDados.db", "rw");
         this.depth = depth;
         buckets = new HashMap<Integer, Bucket>();
         int initialSize = (int) Math.pow(2, depth);
@@ -26,13 +28,17 @@ public class HashExtensivel {
         return key % (int) Math.pow(2, depth);
     }
 
+
     // Inserção de um novo par chave-valor
-    public void insert(int key, long value) throws IOException {
+    public boolean insert(int key, long value) throws IOException {
+        try{
+        boolean hash = true;
         arqHash.seek(0);
         int bucketIndex = hash(key);
         arqHash.writeInt(bucketIndex);
         arqHash.seek(arqHash.getFilePointer());
         Bucket bucket = buckets.get(bucketIndex);
+        if(hash==true) return false;
         if (bucket.isFull()) {
             if (bucket.getDepth() == depth) {
                 // Duplica o mapa e aumenta a profundidade global
@@ -88,6 +94,11 @@ public class HashExtensivel {
             // Adiciona a entrada ao balde
             bucket.addEntry(key, value);
         }
+    }
+    catch(IOException e){
+       e.printStackTrace();
+    }
+    return true;
     }
 
     // Busca o valor associado a uma chave

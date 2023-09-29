@@ -1,10 +1,11 @@
+import java.io.IOException;
 import java.io.RandomAccessFile;
 
 public class ArvoreB {
 
     // Declaração de atributos
 
-    private RandomAccessFile arq;
+    private RandomAccessFile arq, file, arq2;
     private NoArvore raiz;
     private int ordem;
     private int quant;
@@ -16,7 +17,10 @@ public class ArvoreB {
         this.raiz = null;
         try{
         arq = new RandomAccessFile("arqArvore", "rw");
+        arq2= new RandomAccessFile("arqHash", "rw");
         arq.seek(0);
+        arq2.seek(0);
+        file = new RandomAccessFile("arqArvore", "rw");
         }catch(Exception e){}
         quant=0;
     }
@@ -24,15 +28,52 @@ public class ArvoreB {
 
     // Método de inserção
 
+    public void imprimir(){
+      Musica m= new Musica();
+        try{
+            file= new RandomAccessFile("BancoDadosOrdenado", "rw");
+            CRUD crud = new CRUD("BancoDados.db");
+            NoArvore no= new NoArvore(ordem);
+            for(int i=0;i<5000;i++){
+            try{
+                no=busca(i);
+            }
+            catch(Exception e){
+                i++;
+            }
+                m=crud.Read(i);
+                if(m.getLapide()==true){
+                file.seek(0); // Ponteiro vai para o inicio do arquivo
+                file.writeInt(m.getId()); // Escreve no inicio do registro o seu ID
+                file.seek(file.length()); // Ponteiro vai para o final do arquivo
+
+                byte[] byteArr = m.toByteArray(); // Vetor de Bytes populado com os dados do     CSV já filtrados
+                file.writeInt(m.toByteArray().length); // Escreve o tamanho desse vetor de Bytes
+                file.write(byteArr); // Escreve o vetor de Bytes
+                }
+     
+            
+        }
+    }catch(Exception e){
+        System.out.println();
+    }
+    }
+
+
     public void insere(int chave, long pos) {
         // Atualizar arquivo
         quant++;
         try{
             arq.seek(0);
+            arq2.seek(0);
             arq.writeInt(quant);
+            arq2.writeInt(quant);
             arq.seek(arq.length());
+            arq2.seek(arq.length());
             arq.writeInt(chave);
+            arq2.writeInt(chave);
             arq.writeLong(pos);
+            arq2.writeLong(pos);
         } catch(Exception e){}
         // Checa se árvore está vazia
         if (raiz == null) {
@@ -160,7 +201,7 @@ public class ArvoreB {
         // Busca no próximo nó caso o atual não seja folha
         return busca(no.getFilho(i), chave);
     }
-    // Método de busca que retorna a posição do Game no arquivo binário (retorna o ponteiro)
+    // Método de busca que retorna a posição da Musica no arquivo binário (retorna o ponteiro)
     public long buscaPos(int chave) {
         return buscaPos(raiz, chave);
     }

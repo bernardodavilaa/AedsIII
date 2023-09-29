@@ -65,8 +65,8 @@ public class CRUD {
         while(file.getFilePointer() < file.length()){
             pos = file.getFilePointer(); // Pega a posição do ponteiro no momento atual(está apontando para a quantidade de bytes no registo).
             qntBytesInic = file.readInt(); // Pega o tamanho do registo que será selecionado
-            lap = file.readBoolean(); // Armazena o valor da lápide do registro Game específico
-            id = file.readInt(); // Armazena o ID do registro Game específico
+            lap = file.readBoolean(); // Armazena o valor da lápide do registro Musica específico
+            id = file.readInt(); // Armazena o ID do registro Musica específico
             if(id == entradaID){ // Verifica se o id é o mesmo que o selecionado
                 if(lap){ // Verifica se a lápide é válida, ou seja, se o registro foi apagado ou não
                     return false;                 
@@ -74,6 +74,63 @@ public class CRUD {
                 else{
                     file.skipBytes(qntBytesInic - 5); // Pula para o próximo registro
                 }
+            }
+            else{
+                file.skipBytes(qntBytesInic - 5); // Pula para o próximo registro
+            }
+        }
+    }catch (IOException e){
+        e.printStackTrace();
+    }
+
+    return true;
+    }
+
+
+    public int getTamanho(int entradaID) throws IOException{
+        long pos;
+        int qntBytesInic, id;
+        boolean lap;
+
+        file.seek(0);
+        file.readInt();// pula o ID do registro, pois o mesmo ID será lido mais para frente
+        try{
+        while(file.getFilePointer() < file.length()){
+            pos = file.getFilePointer(); // Pega a posição do ponteiro no momento atual(está apontando para a quantidade de bytes no registo).
+            qntBytesInic = file.readInt(); // Pega o tamanho do registo que será selecionado
+            lap = file.readBoolean(); // Armazena o valor da lápide do registro Musica específico
+            id = file.readInt(); // Armazena o ID do registro Musica específico
+            if(id == entradaID){ // Verifica se o id é o mesmo que o selecionado
+                return (qntBytesInic-5);
+            }
+            else{
+                file.skipBytes(qntBytesInic - 5); // Pula para o próximo registro
+            }
+        }
+    }catch (IOException e){
+        e.printStackTrace();
+    }
+
+    return 0;
+    }
+
+
+
+    public Boolean PesquisarID_Apagado(int entradaID) throws IOException{
+        long pos;
+        int qntBytesInic, id;
+        boolean lap;
+
+        file.seek(0);
+        file.readInt();// pula o ID do registro, pois o mesmo ID será lido mais para frente
+        try{
+        while(file.getFilePointer() < file.length()){
+            pos = file.getFilePointer(); // Pega a posição do ponteiro no momento atual(está apontando para a quantidade de bytes no registo).
+            qntBytesInic = file.readInt(); // Pega o tamanho do registo que será selecionado
+            lap = file.readBoolean(); // Armazena o valor da lápide do registro Musica específico
+            id = file.readInt(); // Armazena o ID do registro Musica específico
+            if(id == entradaID){ // Verifica se o id é o mesmo que o selecionado
+                return false;
             }
             else{
                 file.skipBytes(qntBytesInic - 5); // Pula para o próximo registro
@@ -102,19 +159,19 @@ public class CRUD {
         while(file.getFilePointer() < file.length()){
             pos = file.getFilePointer(); // Pega a posição do ponteiro no momento atual(está apontando para a quantidade de bytes no registo).
             qntBytesInic = file.readInt(); // Pega o tamanho do registo que será selecionado
-            lap = file.readBoolean(); // Armazena o valor da lápide do registro Game específico
-            id = file.readInt(); // Armazena o ID do registro Game específico
+            lap = file.readBoolean(); // Armazena o valor da lápide do registro Musica específico
+            id = file.readInt(); // Armazena o ID do registro Musica específico
             if(id == entradaID){ // Verifica se o id é o mesmo que o selecionado
                 if(lap){ // Verifica se a lápide é válida, ou seja, se o registro foi apagado ou não
                     try{
-                        musLida = convertTo(file, pos); // Gera uma instância de Game e popula com as informações do banco de dados
+                        musLida = convertTo(file, pos); // Gera uma instância de Musica e popula com as informações do banco de dados
                         break;
                     }catch (Exception e){
                         e.printStackTrace();
                     }                    
                 }
                 else{
-                    file.skipBytes(qntBytesInic - 5); // Pula para o próximo registro
+                    return musLida;
                 }
             }
             else{
@@ -145,8 +202,8 @@ public class CRUD {
         while(file.getFilePointer() < file.length()){
             pos = file.getFilePointer(); // Pega a posição do ponteiro no momento atual(está apontando para a quantidade de bytes no registo).
             qntBytesInic = file.readInt(); // Pega o tamanho do registo que será selecionado
-            lap = file.readBoolean(); // Armazena o valor da lápide do registro Game específico
-            id = file.readInt(); // Armazena o ID do registro Game específico
+            lap = file.readBoolean(); // Armazena o valor da lápide do registro Musica específico
+            id = file.readInt(); // Armazena o ID do registro Musica específico
             if(id == entradaID){ // Verifica se o id é o mesmo que o selecionado
                 if(lap){ // Verifica se a lápide é válida, ou seja, se o registro foi apagado ou não
                     try{
@@ -219,7 +276,7 @@ public class CRUD {
 
         file.seek(pos); // O ponteiro é direcionado para a posição inicial do registro
         file.readInt(); // Pula o ID do regitro
-        musicaSelec.setLapide(file.readBoolean()); // Seta o valor da lapide na instância de Game
+        musicaSelec.setLapide(file.readBoolean()); // Seta o valor da lapide na instância de Musica
         musicaSelec.setId(file.readInt());
         file.readInt(); // Seta o ID
         musicaSelec.setArtistName(file.readUTF()); // Seta o nome da musica/álbum

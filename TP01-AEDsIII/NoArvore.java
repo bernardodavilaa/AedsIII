@@ -18,6 +18,7 @@ public class NoArvore {
         this.filhos = new NoArvore[2 * ordem];
     }
 
+
     // Métodos de acesso e modificação dos campos
 
     public int getOrdem() {

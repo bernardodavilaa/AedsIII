@@ -1,4 +1,6 @@
+import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
+import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -7,6 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
+import java.io.*;
 
 class Musica{
 
@@ -18,6 +21,7 @@ class Musica{
     private String release_type;
     private ArrayList<String> genres;
     private int review_count;
+    
 
     public void setLapide(boolean lapide){ this.lapide=lapide;}
     public void setId(int id) { this.id = id; }
@@ -147,5 +151,48 @@ class Musica{
         Date date = new Date(getTime);
         return date;
     }
+
+    public void fromByteArray(int id, boolean lapis, int len, byte[] ba) throws IOException {
+        ByteArrayInputStream bais = new ByteArrayInputStream(ba);
+        DataInputStream dis = new DataInputStream(bais);
+
+        
+        
+        this.id = id;
+        this.lapide = lapis;
+        int tamanho = len;
+        byte[] musicaBytes = new byte[tamanho];
+        dis.readFully(musicaBytes); // Isso lê 'tamanho' bytes do DataInputStream
+        Musica musica = Musica.fromByteArray(musicaBytes);
+    }
     
+
+
+    
+
+   public static Musica fromByteArray(byte[] ba) throws IOException {
+        ByteArrayInputStream bais = new ByteArrayInputStream(ba);
+        DataInputStream dis = new DataInputStream(bais);
+        Musica m= new Musica();
+        ArrayList<String> gnrTmp = new ArrayList<String>();
+
+        m.setId(dis.readInt());
+        dis.readInt();
+        m.setArtistName(dis.readUTF());
+        dis.readInt();
+        m.setReleaseName(dis.readUTF());
+        m.setDate(m.transformaLongDate(dis.readLong()));
+        dis.readInt();
+        m.setReleaseType(dis.readUTF());
+        m.setReviewCount(dis.readInt());
+        String[] generos = new String[dis.readInt()];
+        for(int i=0; i<generos.length; i++){
+            dis.readInt(); // Pula o tamanho da String nome
+            generos[i] = dis.readUTF(); // Armazena em um vetor os gêneros
+            gnrTmp.add(generos[i]); // Passa esses gêneros para um ArrayList<String>
+        }
+        m.setGenres(gnrTmp); // Pega o ArrayList<String> populado com todos os gêneros e seta os gêneros
+
+        return m;
+    }
 }
