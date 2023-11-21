@@ -396,16 +396,6 @@ class Main {
         }
     }
 
-        //----------------------------------------------------------------------------- //
-
-        
-
-        // Comandos:
-
-       /*
-       System.out.println(games.get(1).getName()); <-- teste, o ArrayList contém todos os games do csv, já "penerados".
-       */  
-      
        public static String lerArquivoBD(String caminhoArquivo) throws IOException {
     StringBuilder conteudo = new StringBuilder();
 
