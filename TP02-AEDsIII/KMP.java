@@ -1,10 +1,12 @@
+
 class KMP {
     // Faz a tabela do padrão (o autômato).
-    private int[] computeLPS(String pattern) {
+    private int[] calcLPS(String pattern) {
         int length = pattern.length();
         int[] lps = new int[length];
 
-        // i e j são referentes a qual letra/caractere que o programa deve voltar no padrão
+        // i e j são referentes a qual letra/caractere que o programa deve voltar no
+        // padrão
         int i = 0;
         int j = 1;
 
@@ -26,11 +28,11 @@ class KMP {
         return lps;
     }
 
-    // Busca pelo padrão no texto.
-    public void search(String text, String pattern) {
+    // Busca pelo padrão no texto
+    public void busca(String text, String pattern) {
         int textLength = text.length();
         int patternLength = pattern.length();
-        int[] lps = computeLPS(pattern);
+        int[] lps = calcLPS(pattern);
 
         int i = 0;
         int j = 0;
@@ -41,7 +43,7 @@ class KMP {
                 j++;
 
                 if (j == patternLength) {
-                    // Resposta para cada instância do padrão encontrado no texto.
+                    // Resposta para cada instância do padrão encontrado no texto
                     System.out.println("Padrão encontrado no índice " + (i - j));
                     j = lps[j - 1];
                 }
