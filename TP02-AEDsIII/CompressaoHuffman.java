@@ -1,20 +1,20 @@
 import java.io.*;
 import java.util.*;
 
-class HuffmanNode {
-    int frequency;
-    char character;
-    HuffmanNode left;
-    HuffmanNode right;
+class NoHuffman {
+    int frequencia;
+    char caractere;
+    NoHuffman esq;
+    NoHuffman dir;
 }
 
-class HuffmanComparator implements Comparator<HuffmanNode> {
-    public int compare(HuffmanNode node1, HuffmanNode node2) {
-        return node1.frequency - node2.frequency;
+class HuffmanComparator implements Comparator<NoHuffman> {
+    public int compare(NoHuffman no1, NoHuffman no2) {
+        return no1.frequencia - no2.frequencia;
     }
 }
 
-public class HuffmanCompression {
+public class CompressaoHuffman {
 
     private Map<Character, String> huffmanCodes;
 
@@ -31,7 +31,7 @@ public class HuffmanCompression {
         return compressedString.toString();
     }
 
-    public String decompress(String compressedString) {
+    public String descompressao(String compressedString) {
         StringBuilder decompressedString = new StringBuilder();
 
         StringBuilder currentCode = new StringBuilder();
@@ -53,64 +53,64 @@ public class HuffmanCompression {
         Map<Character, String> huffmanCodes = new HashMap<>();
 
         // Calcular a frequência de cada caractere
-        Map<Character, Integer> frequencyMap = new HashMap<>();
+        Map<Character, Integer> frequenciaMap = new HashMap<>();
         for (char c : input.toCharArray()) {
-            frequencyMap.put(c, frequencyMap.getOrDefault(c, 0) + 1);
+            frequenciaMap.put(c, frequenciaMap.getOrDefault(c, 0) + 1);
         }
 
         // Criar uma fila de prioridade para armazenar os nós
-        PriorityQueue<HuffmanNode> priorityQueue = new PriorityQueue<>(new HuffmanComparator());
+        PriorityQueue<NoHuffman> priorityQueue = new PriorityQueue<>(new HuffmanComparator());
 
         // Criar um nó para cada caractere e adicioná-lo à fila de prioridade
-        for (Map.Entry<Character, Integer> entry : frequencyMap.entrySet()) {
-            HuffmanNode node = new HuffmanNode();
-            node.character = entry.getKey();
-            node.frequency = entry.getValue();
-            node.left = null;
-            node.right = null;
-            priorityQueue.add(node);
+        for (Map.Entry<Character, Integer> entry : frequenciaMap.entrySet()) {
+            NoHuffman no = new NoHuffman();
+            no.caractere = entry.getKey();
+            no.frequencia = entry.getValue();
+            no.esq = null;
+            no.dir = null;
+            priorityQueue.add(no);
         }
 
         // Construir a árvore de Huffman
         while (priorityQueue.size() > 1) {
-            HuffmanNode left = priorityQueue.poll();
-            HuffmanNode right = priorityQueue.poll();
+            NoHuffman esq = priorityQueue.poll();
+            NoHuffman dir = priorityQueue.poll();
 
-            HuffmanNode parentNode = new HuffmanNode();
-            parentNode.character = '\0';
-            parentNode.frequency = left.frequency + right.frequency;
-            parentNode.left = left;
-            parentNode.right = right;
+            NoHuffman noPai = new NoHuffman();
+            noPai.caractere = '\0';
+            noPai.frequencia = esq.frequencia + dir.frequencia;
+            noPai.esq = esq;
+            noPai.dir = dir;
 
-            priorityQueue.add(parentNode);
+            priorityQueue.add(noPai);
         }
 
         // Gerar os códigos de Huffman recursivamente
         if (!priorityQueue.isEmpty()) {
-            HuffmanNode rootNode = priorityQueue.peek();
-            generateHuffmanCodes(rootNode, "", huffmanCodes);
+            NoHuffman noRaiz = priorityQueue.peek();
+            gerarHuffmanCodes(noRaiz, "", huffmanCodes);
         }
 
         return huffmanCodes;
     }
 
-    private void generateHuffmanCodes(HuffmanNode node, String code, Map<Character, String> huffmanCodes) {
-        if (node == null) {
+    private void gerarHuffmanCodes(NoHuffman no, String code, Map<Character, String> huffmanCodes) {
+        if (no == null) {
             return;
         }
 
-        if (node.character != '\0') {
-            huffmanCodes.put(node.character, code);
+        if (no.caractere != '\0') {
+            huffmanCodes.put(no.caractere, code);
         }
 
-        generateHuffmanCodes(node.left, code + "0", huffmanCodes);
-        generateHuffmanCodes(node.right, code + "1", huffmanCodes);
+        gerarHuffmanCodes(no.esq, code + "0", huffmanCodes);
+        gerarHuffmanCodes(no.dir, code + "1", huffmanCodes);
     }
 
-    public void writeCompressedFile(String compressedString) {
+    public void escreverCompressedFile(String compressedString) {
         try {
-            FileWriter fileWriter = new FileWriter("baseHuffmanCompressao.txt");
-            BufferedWriter writer = new BufferedWriter(fileWriter);
+            FileWriter fw = new FileWriter("baseHuffmanCompressao.txt");
+            BufferedWriter writer = new BufferedWriter(fw);
 
             writer.write(compressedString);
 
@@ -120,7 +120,7 @@ public class HuffmanCompression {
         }
     }
 
-    String readCompressedFile(int version) {
+    String lerCompressedFile(int version) {
         StringBuilder compressedString = new StringBuilder();
 
         try {

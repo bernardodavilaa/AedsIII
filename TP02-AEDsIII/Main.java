@@ -373,7 +373,7 @@ class Main {
                                     // Boyer Moore
                                     BoyerMoore bm = new BoyerMoore();
                                     System.out.print(
-                                            "Use a heurística do mau caractere ou do sufixo bom? (1 - Sufixo bom; 2 - Mau caractere): ");
+                                            "1 - Sufixo bom; 2 - Mau caractere: ");
                                     int heuristica = sc.nextInt();
                                     boolean charOrSufix = false;
                                     if (heuristica == 2) {
@@ -384,9 +384,9 @@ class Main {
                                     // Pesquisa no Boyer Moore.
                                     List<Integer> occurrences = bm.busca(conteudoBanco, pattern, charOrSufix);
                                     if (occurrences.isEmpty()) {
-                                        System.out.println("Padrão não encontrado no texto.");
+                                        System.out.println("Padrão inexistente.");
                                     } else {
-                                        System.out.println("Padrão encontrado nos índices: " + occurrences);
+                                        System.out.println("Indice: " + occurrences);
                                     }
                                     inicioBoyerComp = System.currentTimeMillis() - inicioBoyerComp;
                                 } catch (Exception e) {
@@ -395,8 +395,8 @@ class Main {
                                 }
 
                                 // Comparação no tempo de pesquisa.
-                                System.out.println("Tempo de pesquisa KMP: " + inicioKmpComp + "ms");
-                                System.out.println("Tempo de pesquisa BoyerMoore: " + inicioBoyerComp + "ms");
+                                System.out.println("KMP: " + inicioKmpComp + "ms");
+                                System.out.println("BoyerMoore: " + inicioBoyerComp + "ms");
                                 System.out.println();
                                 if (inicioKmpComp < inicioBoyerComp) {
                                     System.out.println("KMP foi mais eficiente");
@@ -405,21 +405,17 @@ class Main {
                                 }
                                 break;
                             case 8:
-                                System.out.print("\nSalvando arquivo e encerrando programa...");
+                                System.out.print("\nSalvando...");
                                 break;
                             default:
-                                System.out.println("Digite uma opção válida!\n\n");
+                                System.out.println("Opção Inválida! Digite Novamente: \n\n");
                         }
                     } catch (Exception e) {
-                        System.out.println("Digite uma opção válida!\n\n");
+                        System.out.println("Opção Inválida, digite novamente!\n\n");
                     }
                 }
 
                 System.out.println("\n");
-                System.out.println(" _______________");
-                System.out.println("|               |");
-                System.out.println("|FIM DO PROGRAMA|");
-                System.out.println("|_______________|");
                 // Fechamento do CSV
                 fInputStream.close();
                 sc.close();
