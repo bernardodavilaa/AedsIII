@@ -20,8 +20,6 @@ class Main {
     public static void main(String[] args) throws IOException {
         try {
             CRUD crud = new CRUD("BancoDados");
-            CompressaoHuffman huffman = new CompressaoHuffman();
-            KMP kmp = new KMP();
             try {
                 // Ler o arquivo CSV
                 String csv = "musicas.csv";
@@ -42,17 +40,16 @@ class Main {
                 int opcao = 0;
                 String lixo = "";
 
-                while (opcao != 8) {
+                while (opcao != 7) {
                     System.out.println("Digite qual operação deseja realizar:");
                     System.out.println("1 - Create                           ");
                     System.out.println("2 - Read                             ");
                     System.out.println("3 - Update                           ");
-                    System.out.println("4 - Delete                           ");
-                    System.out.println("5 - Comprimir Arquivo                ");
-                    System.out.println("6 - Descomprimir Arquivo             ");
-                    System.out.println("7 - Pesquisar Padrão                 ");
-                    System.out.println("8 - Sair e salvar arquivo            ");
-                    System.out.println("|_____________________________________");
+                    System.out.println("4 - Delete                           ");    
+                    System.out.println("5 - Criptografar                     ");
+                    System.out.println("6 - Descriptografar                  ");
+                    System.out.println("7 - Saída                            ");
+                    System.out.println("|____________________________________");
                     System.out.println();
 
                     try {
@@ -235,129 +232,71 @@ class Main {
                                 }
 
                                 break;
-
-                            // COMPRESSÃO
                             case 5:
-                                System.out.println("Comprimindo...\n");
-                                // Comprimir arquivos
-                                // Huffman
-                                finalHuffComp = ChamadaCompressaoHuffmann();
-                                // LZW
-                                finalLzwComp = ChamadaCompressaoLZW();
-                                try {
-                                    String baseIncial = "BancoDados";
-                                    String arqComprimido = "baseLzwCompressao" + version++;
-                                    byte[] fileContent = Files.readAllBytes(Paths.get(baseIncial));
-                                    int[] compressed = LZW.compress(fileContent);
-                                    byte[] compressedBytes = new byte[compressed.length * 2];
+                        // Ciframento de César
+                        BufferedWriter bwCesar = new BufferedWriter(new FileWriter("Cesar.txt"));                        
+                        String caminhoArquivo = "games.csv";
+                        String conteudoBanco = lerArquivoBD(caminhoArquivo);
+                        String txtCifradoCesar = cesar.cifrar(conteudoBanco);
+                        bwCesar.write(txtCifradoCesar);
+                        bwCesar.close();
+                        // Cifra por substituição
+                        
+                        String txtCifradoSubstituicao = substituicao.criptografa(conteudoBanco);
+                        FileWriter crip = new FileWriter("substituicao.txt");
+                        crip.write(txtCifradoSubstituicao);
+                        crip.close();
+                        System.out.println("Arquivos criptografados com sucesso!\n");
+                        break;
+                        case 6:
+                        // Cesar
+                        int chaveCesarDecrip = 3;
+                        CifraCesar cesarDecript = new CifraCesar(chaveCesarDecrip);
+                        BufferedReader brCesar = new BufferedReader(new FileReader("Cesar.txt"));
+                        String lineCesar;
+                        StringBuilder strBuilder = new StringBuilder();
+                        while ((lineCesar = brCesar.readLine()) != null) {
+                        strBuilder.append(lineCesar);
+                        strBuilder.append("\n");
+                        }
+                        String cesarDecrip = strBuilder.toString();
+                        cesarDecrip = cesarDecript.decifrar(cesarDecrip); // Descriptografia.
+                        brCesar.close();
+                        FileWriter escreveCesar = new FileWriter("Cesar.txt");
+                        escreveCesar.write(cesarDecrip);
+                        escreveCesar.close();
 
-                                    for (int i = 0; i < compressed.length; i++) {
-                                        compressedBytes[2 * i] = (byte) (compressed[i] >> 8);
-                                        compressedBytes[2 * i + 1] = (byte) (compressed[i] & 0xFF);
-                                    }
-                                    Files.write(Paths.get(arqComprimido), compressedBytes);
-                                    System.out.println("Arquivo da sequência compactada gerado: baseLzwCompressao"+ (version - 1) + ".txt");
-                                } catch (Exception e) {
-                                    System.out.println("Erro na compressão - LZW");
-                                }
-                                System.out.println("Tempo de compressão LZW: " + finalLzwComp + "ms");
+                        // Cifra por substituição
+                        try {
+                            // Abre arquivo criptografado para leitura
+                            BufferedReader reader = new BufferedReader(new FileReader("substituicao.txt"));
+                            StringBuilder textoCriptografadoBuilder = new StringBuilder();
+                            String linhaArq;
+                            while ((linhaArq = reader.readLine()) != null) {
+                                // Lê todo arquivo e salva em um String Builder
+                                textoCriptografadoBuilder.append(linhaArq);
+                                textoCriptografadoBuilder.append("\n");
+                            }
+                            reader.close();
+                            // Converte String Builder para String
+                            String textoCriptografado = textoCriptografadoBuilder.toString();
 
-                                if (finalHuffComp < finalLzwComp) {
-                                    System.out.print("Compressão Huffman foi ");
-                                    System.out.printf("%.2f ",(1.0 - ((float) finalHuffComp / (float) finalLzwComp)) * 100);
-                                    System.out.println("% mais eficiente");
-                                } else {
-                                    System.out.print("Compressão LZW foi ");
-                                    System.out.printf(
-                                            "%.2f " + (1.0 - ((float) finalLzwComp / (float) finalHuffComp)) * 100);
-                                    System.out.println("% mais eficiente");
-                                }
+                            // Descriptografa o texto
+                            String textoDescriptografado = substituicao.descriptografa(textoCriptografado);
 
-                                System.out.println("\nArquivo comprimido com sucesso!");
-                                break;
+                            // Sobrescreve o arquivo com o texto descriptografado
+                            FileWriter writer = new FileWriter("substituicao.txt");
+                            writer.write(textoDescriptografado);
+                            writer.close();
 
-                            // DESCOMPRESSÃO
-                            case 6:
-                                System.out.print("Qual a versão do arquivo que deseja descomprimir? ");
-                                int versao = sc.nextInt();
-                                System.out.println("Descomprimindo arquivo...\n");
-                                // Descomprimir arquivo da versão escolhida
-                                // Huffman
-                                finalHuffDesc = ChamadaDescompressaoHuffman();
-                                // LZW
-                                finalLzwDesc = finalLzwDescChamadaLZW();
-                                if (finalHuffDesc < finalLzwDesc) {
-                                    System.out.print("Descompressão Huffman foi ");
-                                    System.out.printf(
-                                            "%.2f " + (1.0 - ((float) finalHuffDesc / (float) finalLzwDesc)) * 100);
-                                    System.out.println("% mais eficiente");
-                                } else {
-                                    System.out.print("Descompressão LZW foi ");
-                                    System.out.printf("%.2f ",
-                                            (1.0 - ((float) finalLzwDesc / (float) finalHuffDesc)) * 100);
-                                    System.out.println("% mais eficiente");
-                                }
-
-                                System.out.println("\nArquivo descomprimido com sucesso!");
-                                break;
-
-                            // PESQUISAR PADRÃO
-                            case 7:
-                                lixo = sc.nextLine();
-                                System.out.print("Digite o nome do artista que deseja encontrar: ");
-                                String pattern = sc.nextLine();
-                                // Procura do artista
-                                long inicioKmpComp = 0;
-                                long inicioBoyerComp = 0;
-
-                                try {
-                                    String caminhoArquivo = "musicas.csv";
-                                    String conteudoBanco = lerArquivo(caminhoArquivo);
-
-                                    // KMP
-                                    inicioKmpComp = System.currentTimeMillis();
-
-                                    // Pesquisa no KMP
-                                    kmp.busca(conteudoBanco, pattern);
-                                    inicioKmpComp = System.currentTimeMillis() - inicioKmpComp;
-
-                                    // Boyer Moore
-                                    BoyerMoore bm = new BoyerMoore();
-                                    System.out.print(
-                                            "1 - Sufixo bom; 2 - Mau caractere: ");
-                                    int heuristica = sc.nextInt();
-                                    boolean charOrSufix = false;
-                                    if (heuristica == 2) {
-                                        charOrSufix = true;
-                                    }
-                                    inicioBoyerComp = System.currentTimeMillis();
-
-                                    // Pesquisa no Boyer Moore.
-                                    List<Integer> occurrences = bm.busca(conteudoBanco, pattern, charOrSufix);
-                                    if (occurrences.isEmpty()) {
-                                        System.out.println("Padrão inexistente.");
-                                    } else {
-                                        System.out.println("Indice: " + occurrences);
-                                    }
-                                    inicioBoyerComp = System.currentTimeMillis() - inicioBoyerComp;
-                                } catch (Exception e) {
-                                    // System.out.println(e.getLocalizedMessage());
-                                    System.out.println("Erro no padrão");
-                                }
-
-                                // Comparação no tempo de pesquisa.
-                                System.out.println("KMP: " + inicioKmpComp + "ms");
-                                System.out.println("BoyerMoore: " + inicioBoyerComp + "ms");
-                                System.out.println();
-                                if (inicioKmpComp < inicioBoyerComp) {
-                                    System.out.println("KMP foi mais eficiente");
-                                } else {
-                                    System.out.println("BoyerMoore foi mais eficiente");
-                                }
-                                break;
-                            case 8:
-                                System.out.print("\nSalvando...");
-                                break;
+                            System.out.println("Arquivos descriptografados com sucesso!\n");
+                        } catch (IOException e) {
+                            System.out.println("Erro ao ler ou escrever no arquivo");
+                            e.printStackTrace();
+                        }
+                        break;
+                        case 7:
+                        System.out.print("\nSalvando arquivo e encerrando programa...");
                             default:
                                 System.out.println("Opção Inválida! Digite Novamente: \n\n");
                         }
@@ -392,115 +331,4 @@ class Main {
         return conteudo.toString();
     }
 
-    public static long ChamadaCompressaoHuffmann()
-    {
-        long inicioHuffComp = System.currentTimeMillis();
-            try {
-                String arquivo = new Scanner(new File("musicas.csv")).useDelimiter("\\\\Z").next();;
-                String compressedString = huffman.compress(arquivo);
-                huffman.escreverCompressedFile(compressedString);
-                System.out.println("Arquivo da sequência compactada gerado: baseHuffmanCompressao"+ Main.version + ".txt");
-                } 
-                catch (Exception e) {
-                    System.out.println("Erro na compressão Huffman");
-                }
-        
-        long finalHuff = CalculoTempoCompressaoHuffman(inicioHuffComp);
-        return finalHuff;
-    }
-
-    public static void ChamadaCompressaoLZW()
-    {
-        long inicioLzwComp = System.currentTimeMillis();
-            try {
-                String baseIncial = "BancoDados";
-                String arqComprimido = "baseLzwCompressao" + version++;
-                byte[] fileContent = Files.readAllBytes(Paths.get(baseIncial));
-                int[] compressed = LZW.compress(fileContent);
-                byte[] compressedBytes = new byte[compressed.length * 2];
-
-                for (int i = 0; i < compressed.length; i++) {
-                    compressedBytes[2 * i] = (byte) (compressed[i] >> 8);
-                    ompressedBytes[2 * i + 1] = (byte) (compressed[i] & 0xFF);
-                    }
-
-                Files.write(Paths.get(arqComprimido), compressedBytes);
-                System.out.println("Arquivo da sequência compactada gerado: baseLzwCompressao"+ (version - 1) + ".txt");
-                } 
-            catch (Exception e) {
-                System.out.println("Erro na compressão LZW");
-                }
-            long finalLzwComp = CalculoTempoCompressaoLZW(long inicioLzwComp);
-            return finalLzwComp;
-    }
     
-    public static void ChamadaDescompressaoHuffman()
-    {
-        long tempDescompressaoHuffmann = System.currentTimeMillis();
-            try{
-                String readString = huffman.readCompressedFile(versao);
-                String decompressedString = huffman.decompress(readString);
-                FileWriter fw = new FileWriter("baseHuffmanCompressao"+versao+".txt");
-                BufferedWriter writer = new BufferedWriter(fw);
-                writer.write(decompressedString);
-                writer.close();
-                }
-                catch(Exception e){
-                    System.out.println("Erro na descompressão Huffman");
-                }
-        long finalHuffDesc= CalculoTempoDescompressaoHuffman(tempDescompressaoHuffmann);
-        return finalHuffDesc;
-    }
-
-    public static void ChamadaDescompressaoLZW()
-    {
-        long inicioLzwDesc = System.currentTimeMillis();
-            try {
-                String fileName = "baseLzwCompressao" + versao;
-                byte[] compressedFileContent = Files.readAllBytes(Paths.get(fileName));
-                int[] compressedData = new int[compressedFileContent.length / 2];
-                for (int i = 0; i < compressedData.length; i++) {
-                   compressedData[i] = ((compressedFileContent[2 * i] & 0xFF) << 8)
-                    (compressedFileContent[2 * i + 1] & 0xFF);
-                    }
-
-                byte[] decompressed = LZW.decompress(compressedData);
-                Files.write(Paths.get(fileName), decompressed);
-                } 
-                catch (Exception e){
-                    System.out.println("Erro na descompressão LZW");
-                }
-        long finalLzwDesc = CalculoTempoDescompressaoHuffman(inicioLzwDesc);
-        return finalLzwDesc;
-    }
-
-
-    public static long CalculoTempoCompressaoHuffman(long inicioHuffComp)
-    {
-        long finalHuffComp = System.currentTimeMillis() - inicioHuffComp;
-        System.out.println("Tempo de compressão Huffman: " + finalHuffDesc + "ms");
-        return finalHuffComp;
-    }
-
-    public static long CalculoTempoCompressaoLZW(long inicioLzwComp)
-    {
-        long finalLzwComp = System.currentTimeMillis() - inicioLzwComp;
-        System.out.println("Tempo de compressão LZW: " + finalLzwComp + "ms");
-        return finalLzwComp;
-    }
-
-    public static long CalculoTempoDescompressaoLZW(long inicioLzwDesc)
-    {
-        long finalLzwDesc = System.currentTimeMillis() - inicioLzwDesc;
-        System.out.println("Tempo de descompressão LZW: " + finalLzwDesc + "ms");
-        return finalLzwDesc;
-    }
-
-    public static long CalculoTempoDescompressaoHuffman(long iHuffDesc)
-    {
-        long fHuffDesc = System.currentTimeMillis()-    iHuffDesc;
-        System.out.println("Tempo de descompressão Huffman: "+fHuffDesc+"ms");
-        return finalHuffDesc;
-    }
-
-}
