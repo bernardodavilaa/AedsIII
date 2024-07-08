@@ -1,0 +1,1 @@
+this repository is for storing the activities carried out in the Algorithms and Data Structures III course, where binary file compression, reading, and CRUD operations, encryption, and searches using nodes were performed using Java
